@@ -33,7 +33,7 @@ const Navbar = () => {
           window.open('https://www.instagram.com/blurryvision.kk/','_blank').focus();
         }} />
         <div />
-        {/* link later to 'newletter' */}
+        {/* link later to 'newletter' (make it ) */}
         <a href="/" className='p__opensans'>Bookings</a> 
       </div>
 

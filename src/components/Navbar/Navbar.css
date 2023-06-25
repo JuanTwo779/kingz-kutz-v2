@@ -55,11 +55,11 @@
 
 .app__navbar-login svg {
     margin: 0 1rem;
+    cursor: pointer;
 }
 
 .app__navbar-login svg:hover {
     border-bottom: 1px solid var(--color-golden);
-    cursor: pointer;
 }
 
 .app__navbar-login div {

@@ -23,12 +23,12 @@ const Gallery = () => {
       <div className="app__gallery-content">
         <SubHeading title="Instagram" />
         <h1 className="headtext__cormorant">Photo Gallery</h1>
-        <p className="p__opensans" style={{ color: '#AAA', marginTop: '2rem' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.</p>
-        <button type="button" className="custom__button">View More</button>
+        <p className="p__opensans" style={{ color: '#AAA', marginTop: '2rem' }}>Look through the gallery to get an idea or inspiration.</p>
+        <a href="https://www.instagram.com/blurryvision.kk/" target='_blank' type="button" className="custom__button">View More</a>
       </div>
       <div className="app__gallery-images">
         <div className="app__gallery-images_container" ref={scrollRef}>
-          {[images.gallery01, images.gallery02, images.gallery03, images.gallery04].map((image, index) => (
+          {[images.gal1, images.gal2, images.gal3, images.gal4].map((image, index) => (
             <div className="app__gallery-images_card flex__center" key={`gallery_image-${index + 1}`}>
               <img src={image} alt="gallery_image" />
               <BsInstagram className="gallery__image-icon" />

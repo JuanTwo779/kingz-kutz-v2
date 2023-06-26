@@ -5,7 +5,7 @@ import { data, images } from '../../constants';
 import './SServices.css';
 
 const SServices = () => (
-  <div className="app__sservices flex__center section__padding" id="menu">
+  <div className="app__sservices flex__center section__padding" id="services">
     <div className="app__sservices-title">
       <SubHeading title="What we provide" />
       <h1 className="headtext__cormorant">Services</h1>
@@ -22,7 +22,7 @@ const SServices = () => (
       </div>
 
       <div className="app__sservices-service_img">
-        <img src={images.menu} alt="service__img" />
+        <img src={images.services} alt="service__img" />
       </div>
 
       <div className="app__sservices-service_caveats  flex__center">
@@ -35,9 +35,9 @@ const SServices = () => (
       </div>
     </div>
 
-    <div style={{ marginTop: 15 }}>
+    {/* <div style={{ marginTop: 15 }}>
       <button type="button" className="custom__button">View More</button>
-    </div>
+    </div> */}
   </div>
 );
 

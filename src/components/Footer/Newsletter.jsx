@@ -7,8 +7,8 @@ const Newsletter = () => (
   <div className="app__newsletter">
     <div className="app__newsletter-heading">
       <SubHeading title="Newsletter" />
-      <h1 className="headtext__cormorant">Subscribe To Our Newsletter</h1>
-      <p className="p__opensans">And never miss latest Updates!</p>
+      <h1 className="headtext__cormorant">Make a booking via Instragram</h1>
+      <p className="p__opensans">Booking system is underway</p>
     </div>
 
     {/* Remove this later */}

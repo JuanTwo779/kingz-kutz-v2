@@ -34,7 +34,7 @@ const Navbar = () => {
         }} />
         <div />
         {/* link later to 'newletter' (make it ) */}
-        <a href="/" className='p__opensans'>Bookings</a> 
+        <a href="#booking" className='p__opensans'>Bookings</a> 
       </div>
 
       <div className="app__navbar-smallscreen">

@@ -1,14 +1,13 @@
 import images from './images';
 
-import { BsFillJournalBookmarkFill, BsClockHistory, BsPiggyBank } from 'react-icons/bs';
-import { MdPayment } from 'react-icons/md';
+import { BsClockHistory, BsPiggyBank } from 'react-icons/bs';
 import { CiMoneyCheck1 } from 'react-icons/ci';
 
 const services = [
   {
-    title: 'Trims and or Fades',
+    title: 'Trims',
     price: '$45',
-    comment: 'Trims are trims'
+    comment: 'Trim the tops and fade the sides'
   },
   {
     title: 'Skin/Razor Fades',

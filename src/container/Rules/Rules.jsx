@@ -19,7 +19,7 @@ const Rules = () => (
     <div className='app__bg app__wrapper section__padding' id='rules'>
 
         <div className='app__wrapper_info'>
-            <SubHeading title="New rules to Kingz Kutz"/>
+            <SubHeading title="New rules"/>
             <h1 className='headtext__cormorant'>Rules and regulations</h1>
 
             <div className='app__rules_list'>
@@ -28,7 +28,7 @@ const Rules = () => (
         </div>
 
         <div className='app__wrapper_img'>
-            <img src={images.laurels} alt="rules" />
+            <img src={images.rules} alt="rules" />
         </div>
 
     </div>

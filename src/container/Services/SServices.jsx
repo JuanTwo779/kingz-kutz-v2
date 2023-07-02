@@ -42,5 +42,3 @@ const SServices = () => (
 );
 
 export default SServices;
-
-// Services + rules that relate to hair

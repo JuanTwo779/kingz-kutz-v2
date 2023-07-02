@@ -31,7 +31,8 @@ const Navbar = () => {
         <FiInstagram 
           onClick={(e) => { e.preventDefault();
           window.open('https://www.instagram.com/blurryvision.kk/','_blank').focus();
-        }} />
+          }} 
+        />
         <div />
         
         <a href="#booking" className='p__opensans'>Bookings</a> 

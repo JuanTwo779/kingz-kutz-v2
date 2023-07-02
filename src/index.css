@@ -12,9 +12,10 @@
   --color-grey: #AAAAAA;
   --color-white: #FFFFFF;
 
-  --color-primary: #392f65;
-  --color-secondary: #CDB0EE;
-  --color-bg: blue;
+  --color-bg: #161e29;
+  --color-primary: #7169e0;
+  --color-secondary: #C4BCF7;
+  --color-tertiary: #fabebe;
 }
 
 * {

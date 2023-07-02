@@ -10,7 +10,7 @@ const Header = () => (
     
     <div className='app__wrapper_info'>
       <SubHeading title="Blurry Vision" />
-      <h1 className='app__header-h1'>Glen Waverley's Best Barber</h1>
+      <h1 className='app__header-h1'>The Best Barber</h1>
       <p className="p__opensans" style={{ margin: '2rem 0'}} > Come for the vibes, Come back for the fades.  </p>
       
       <a href="#services" type='button' className='custom__button'>Explore Services</a>

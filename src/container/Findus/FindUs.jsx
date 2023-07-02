@@ -13,7 +13,7 @@ const FindUs = () => (
         <p className='p__opensans'> The barbershop is at 123 Sesame Street. Use the google map to help find us. </p>
         <p className='p__cormorant' style={{color: '#DCCA87', margin: '2rem 0'}}>Working Hours</p>
         <p className='p__opensans'>Mon - Fri: 9:00am - 5:00pm</p>
-        <p className='p__opensans'>Mon - Fri: 9:00am - 5:00pm</p>
+        <p className='p__opensans'>Weekends: 9:00am - 5:00pm</p>
       </div>
       {/* <button type='button' style={{marginTop: '2rem'}} className='custom__button'>Visit Us</button> */}
     </div>

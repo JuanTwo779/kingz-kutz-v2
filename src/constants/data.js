@@ -1,28 +1,27 @@
-import images from './images';
 
 import { BsClockHistory, BsPiggyBank } from 'react-icons/bs';
 import { CiMoneyCheck1 } from 'react-icons/ci';
 
 const services = [
   {
-    title: 'Trims',
+    title: 'Trims/Fades',
     price: '$45',
-    comment: 'Trim the tops and fade the sides'
+    comment: 'A fade haircut is a cutting technique that tapers the hair so it eventually “fades” into the skin'
   },
   {
     title: 'Skin/Razor Fades',
     price: '$50',
-    comment: 'Trims but even shorter',
+    comment: 'A razor fade is a taper cut where the hair is shaved on the sides and back of the head',
   },
   {
     title: 'Beard',
     price: '$20',
-    comment: 'Includes shape-ups and fades',
+    comment: 'A shape-up is a hairstyle that involves cutting along the natural hairline to straighten it.',
   },
   {
     title: 'Eyebrows',
     price: '$5',
-    comment: 'Trims and slits',
+    comment: 'They are remnants of an injury, usually seen in old gangster movies',
   },
 ];
 
@@ -72,83 +71,4 @@ const rules = [
   },
 ];
 
-const wines = [
-  {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
-  },
-  {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
-  },
-  {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
-  },
-  {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
-  },
-  {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
-  },
-];
-
-const cocktails = [
-  {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
-  },
-  {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
-  },
-  {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
-  },
-  {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
-  },
-  {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
-  },
-];
-
-const awards = [
-  {
-    imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-];
-
-export default { wines, cocktails, awards, services, rules, caveats };
+export default { services, rules, caveats };

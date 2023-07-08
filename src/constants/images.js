@@ -11,6 +11,7 @@ import heroLogoKK from '../assets/herologo.png';
 import header from '../assets/header.png';
 import katana from '../assets/katana.png';
 import katana2 from '../assets/katana2.png';
+import katana3 from '../assets/katana3.png';
 import services from '../assets/services.jpg';
 import rules from '../assets/rules.jpg';
 import gal1 from '../assets/gal1.png';
@@ -33,6 +34,7 @@ export default {
   header,
   katana,
   katana2,
+  katana3,
   services,
   rules,
   gal1,

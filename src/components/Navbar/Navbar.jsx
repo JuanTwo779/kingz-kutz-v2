@@ -1,6 +1,5 @@
 import React from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
-import { MdOutlineRestaurantMenu } from 'react-icons/md';
 import { FiInstagram } from 'react-icons/fi';
 import { BsScissors } from 'react-icons/bs'
 

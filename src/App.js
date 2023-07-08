@@ -1,10 +1,8 @@
 import React from 'react';
 
 import { Barber, FindUs, Footer, Gallery, Header, Intro, Services, Rules } from './container';
-
-
-
 import { Navbar } from './components';
+
 import './App.css';
 
 const App = () => (

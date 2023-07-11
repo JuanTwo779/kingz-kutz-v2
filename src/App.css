@@ -16,6 +16,14 @@
   background-attachment: fixed;
 }
 
+.app__bg_2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url('./assets/bgBarber.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
 .app__wrapper {
   display: flex;
   justify-content: space-between;

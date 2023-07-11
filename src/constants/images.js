@@ -19,6 +19,7 @@ import gal2 from '../assets/gal2.jpg';
 import gal3 from '../assets/gal3.jpg';
 import gal4 from '../assets/gal4.jpg';
 import backgroundKK from '../assets/backgroundKK.jpg';
+import bgBarber from '../assets/bgBarber.jpg';
 
 export default {
   bg,
@@ -42,4 +43,5 @@ export default {
   gal3,
   gal4,
   backgroundKK,
+  bgBarber,
 };

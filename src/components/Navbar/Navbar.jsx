@@ -26,7 +26,6 @@ const Navbar = () => {
       </ul>
 
       <div className="app__navbar-login">
-        {/* <a href="https://www.instagram.com/blurryvision.kk/" target="_blank" className='p__opensans'><FiInstagram/></a> */}
         <FiInstagram 
           onClick={(e) => { e.preventDefault();
           window.open('https://www.instagram.com/blurryvision.kk/','_blank').focus();

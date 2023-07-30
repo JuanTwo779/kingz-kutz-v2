@@ -13,10 +13,9 @@
   --color-white: #FFFFFF;
   --color-whitesmoke: #f5f5f5;
 
-  --color-bg: #362971;
-  --color-primary: #7169e0;
-  --color-secondary: #C4BCF7;
-  --color-tertiary: #fabebe;
+  --color-primary: #362971;
+  --color-secondary: #6b58c2;
+  --color-accent: #867faa;
 }
 
 * {

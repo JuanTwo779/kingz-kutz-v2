@@ -29,12 +29,12 @@ const caveats = [
   {
     title: 'Highschool Students',
     price: '$40',
-    comment: 'Highschool students receive a discount',
+    comment: 'Highschool students receive a discount for trims and fades',
   },
   {
     title: 'Transfer Fee',
     price: '$3',
-    comment: 'No cash = fee',
+    comment: 'Payments by card incurs a fee',
   },
   {
     title: 'Entrance',

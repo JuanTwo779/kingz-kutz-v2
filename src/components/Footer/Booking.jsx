@@ -8,7 +8,7 @@ const Booking = () => (
   <div className="app__booking" id='booking'>
     <div className="app__booking-heading">
       <SubHeading title="booking" />
-      <h1 className="headtext__cormorant">Make a booking via Instragram</h1>
+      <h1 className="headtext__cormorant">Make a booking here</h1>
       <p className="p__opensans">Booking system is currently underway.</p>
     </div>
 

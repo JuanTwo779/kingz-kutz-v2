@@ -44,8 +44,8 @@
 
 .app__gallery-images_card {
     position: relative;
-    min-width: 301px;
-    height: 447px;
+    min-width: 500px;
+    height: 500px;
     margin-right: 2rem;
 }
 
@@ -86,7 +86,7 @@
 }
 
 .gallery__arrow-icon {
-    color: var(--color-golden);
+    color: var(--color-whitesmoke);
     font-size: 2rem;
     cursor: pointer;
     background-color: var(--color-black);

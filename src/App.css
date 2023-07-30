@@ -9,7 +9,10 @@
 }
 
 .app__bg {
-  background: url('./assets/bg.png');
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.60), 
+    rgba(0, 0, 0, 0.60)), 
+    url('./assets/background1.avif');
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
@@ -17,7 +20,7 @@
 }
 
 .app__bg_2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url('./assets/bgBarber.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url('./assets/background1.avif');
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
@@ -70,10 +73,15 @@
     line-height: 28px;
     font-size: 16px;
     padding: 0.5rem 1.5rem;
-    border-radius: 1px;
+    border-radius: 30px;
     border: none;
     outline: none;
     cursor: pointer;
+}
+
+.custom__button:hover {
+  color: var(--color-whitesmoke);
+  transition: ease-in 0.3s;
 }
 
 .p__cormorant {
@@ -99,15 +107,15 @@
 
 .headtext__cormorant {
   font-family: var(--font-base);
-  color: var(--color-golden);
+  color: var(--color-whitesmoke);
   font-size: 64px;
   line-height: 83.2px;
   letter-spacing: 0.04em;
   text-transform: capitalize;
 }
 
-.spoon__img {
-  width: 45px;
+.subheading__img {
+  width: 100px;
 }
 
 @media screen and (min-width: 2000px) {

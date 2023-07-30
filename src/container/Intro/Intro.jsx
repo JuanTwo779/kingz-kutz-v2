@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 
 import { BsFillPlayFill, BsPauseFill } from 'react-icons/bs';
 import { cut } from '../../constants';
-import { meal } from '../../constants';
 
 import './Intro.css';
 

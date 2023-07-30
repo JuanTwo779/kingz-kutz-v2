@@ -1,20 +1,19 @@
 import React from 'react';
 import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
 
-import { FooterOverlay, Newsletter, Booking } from '../../components';
+import { FooterOverlay, Booking } from '../../components';
 import { images } from '../../constants';
 import './Footer.css';
 
 const Footer = () => (
   <div className="app__footer section__padding" id="login">
     <FooterOverlay />
-    {/* <Newsletter /> */}
     <Booking />
 
     <div className="app__footer-links">
       <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">Contact Us</h1>
-        <p className="p__opensans">123 Sesame Street</p>
+        <p className="p__opensans">7 Garwain Parade, Glen Waverley</p>
         <p className="p__opensans">1300 655 506</p>
         <p className="p__opensans">1300 367 070</p>
       </div>
@@ -22,13 +21,14 @@ const Footer = () => (
       <div className="app__footer-links_logo">
         <img src={images.logoWhiteKK} alt="footer_logo" />
         <p className="p__opensans">Circumcision service coming soon</p>
-        <img src={images.katana2} className="spoon__img" style={{ marginTop: 15 }} />
+        <img src={images.scissors} className="subheading__img" style={{ marginTop: 15 }} />
         <div className="app__footer-links_icons">
           <FiFacebook />
-          <FiInstagram color='#fff' fontSize={40} 
+          <FiInstagram 
             onClick={(e) => { e.preventDefault();
             window.open('https://www.instagram.com/blurryvision.kk/','_blank').focus();
-          }} />
+          }} 
+        />
           <FiTwitter />
         </div>
       </div>

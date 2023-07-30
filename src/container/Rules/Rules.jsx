@@ -9,8 +9,8 @@ const RuleCard = ( {rule: { icon, title, comment}} ) => (
     <div className='app__rules_list-card'>
       <div className='icon'>{icon}</div>
       <div className='app__rules_list-card_content'>
-        <p className='p__cormorant' style={{color: '#DCCA87'}}>{title}</p>
-        <p className='p__opensans' >{comment}</p>
+        <p className='p__cormorant' style={{color: 'var(--color-accent)'}}>{title}</p>
+        <p className='p__opensans'>{comment}</p>
       </div>
     </div>
   );

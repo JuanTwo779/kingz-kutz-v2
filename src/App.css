@@ -9,10 +9,12 @@
 }
 
 .app__bg {
-  background: linear-gradient(
+  /* background: linear-gradient(
     rgba(0, 0, 0, 0.60), 
     rgba(0, 0, 0, 0.60)), 
     url('./assets/background1.avif');
+  background: url('./assets/background1.avif'); */
+  background-color: var(--color-black);
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
@@ -100,7 +102,7 @@
   color: var(--color-white);
   font-weight: 400;
   letter-spacing: 0.04em;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   line-height: 28px;
   font-size: 16px;
 }

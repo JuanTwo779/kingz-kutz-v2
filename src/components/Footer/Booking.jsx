@@ -8,13 +8,13 @@ const Booking = () => (
   <div className="app__booking" id='booking'>
     <div className="app__booking-heading">
       <SubHeading title="booking" />
-      <h1 className="headtext__cormorant">Make a booking here</h1>
-      <p className="p__opensans">Booking system is currently underway.</p>
+      <h1 className="headtext__cormorant">Book on Instragram</h1>
+      <p className="p__opensans">Click the instagram button below and click the 'book now' button in the bio. Then follow the instructions on the screen</p>
     </div>
 
     <div className="app__booking-button flex__center">
         
-      <FiInstagram color='#fff' fontSize={40} 
+      <FiInstagram fontSize={40} 
           onClick={(e) => { e.preventDefault();
           window.open('https://www.instagram.com/blurryvision.kk/','_blank').focus();
       }} />

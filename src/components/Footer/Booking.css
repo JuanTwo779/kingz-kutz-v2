@@ -15,12 +15,16 @@
 }
 
 .app__booking-button svg {
+    color: var(--color-white);
     width: max-content;
     cursor: pointer;
 }
 
-@media screen and (min-width: 2000px) {
+.app__booking-button svg:hover {
+    color: var(--color-accent);
+    transition: ease-in 0.2s;
 }
+
 
 @media screen and (max-width: 990px) {
     .app__booking-button {

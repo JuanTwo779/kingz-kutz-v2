@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import { BsFillPlayFill, BsPauseFill } from 'react-icons/bs';
-import { cut } from '../../constants';
+import { vid } from '../../constants';
 
 import './Intro.css';
 
@@ -22,7 +22,7 @@ const Intro = () => {
   return (
     <div className='app__video'>
       <video 
-        src={ cut } 
+        src={ vid } 
         type="video/mp4"
         loop
         controls={false}

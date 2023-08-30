@@ -1,50 +1,51 @@
 
 import { BsClockHistory, BsPiggyBank } from 'react-icons/bs';
 import { CiMoneyCheck1 } from 'react-icons/ci';
+import {GiMoneyStack, GiPayMoney,GiClockwork} from 'react-icons/gi';
 
 const services = [
   {
     title: 'Trims/Fades',
-    price: '$45',
-    comment: 'A fade haircut is a cutting technique that tapers the hair so it eventually “fades” into the skin'
+    price: '$50',
+    comment: 'A gradual transition from shorter hair at the back and sides of the head to longer hair on top'
   },
   {
     title: 'Skin/Razor Fades',
-    price: '$50',
-    comment: 'A razor fade is a taper cut where the hair is shaved on the sides and back of the head',
+    price: '$55',
+    comment: 'A specific variation of the fade haircut that involves a more aggressive tapering of the hair',
   },
   {
-    title: 'Beard',
-    price: '$20',
-    comment: 'A shape-up is a hairstyle that involves cutting along the natural hairline to straighten it.',
+    title: 'Haircut + Beard',
+    price: '$70',
+    comment: 'A grooming technique to define the edges of a beard for a more polished and tidy appearance',
   },
   {
     title: 'Eyebrows',
-    price: '$5',
-    comment: 'They are remnants of an injury, usually seen in old gangster movies',
+    price: '$10',
+    comment: 'A grooming technique to refine the shape of eyebrows for a polished and well-defined look',
   },
 ];
 
 const caveats = [
   {
     title: 'Highschool Students',
-    price: '$40',
+    price: '$45',
     comment: 'Highschool students receive a discount for trims and fades',
   },
   {
-    title: 'Transfer Fee',
-    price: '$3',
-    comment: 'Payments by card incurs a fee',
+    title: 'Cash Discount',
+    price: '-$5',
+    comment: 'Payments by cash receive a five dollar discount',
   },
   {
     title: 'Entrance',
     price: '',
-    comment: 'Please enter the barbershop through the right side along the fence',
+    comment: 'Enter the barbershop through the right side of the house along the fence',
   },
   {
     title: 'Have An Idea',
     price: '',
-    comment: 'Please know what type of haircut you want',
+    comment: 'Having an idea saves time for both customers and barber',
   },
   {
     title: 'Clean Hair',
@@ -56,18 +57,18 @@ const caveats = [
 const rules = [
   {
     title: 'Deposit',
-    comment: 'Bookings now require a $15 deposit. The deposit will be lost if the customer does not show up or cancels within 24 hours.',
-    icon: <BsPiggyBank/>,
+    comment: 'Cash bookings now require a $15 deposit. The deposit will be lost if the customer does not show up or cancels within 24 hours.',
+    icon: <GiPayMoney/>,
   },
   {
     title: 'Payments',
-    comment: 'Both cash and transfers are acceptable methods of payment. Transfers will incur a $3 fee.',
-    icon: <CiMoneyCheck1/>,
+    comment: 'Both cash and transfers are acceptable methods of payment. Cash payments receive a $5 discount.',
+    icon: <GiMoneyStack/>,
   },
   {
     title: 'After Hours',
     comment: 'Appointments made on a public holiday or late night (After 7pm) incurs a 1.5x fee.',
-    icon: <BsClockHistory/>,
+    icon: <GiClockwork/>,
   },
 ];
 

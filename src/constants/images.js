@@ -10,10 +10,6 @@ import katana from '../assets/katana.png';
 import katana2 from '../assets/katana2.png';
 import services from '../assets/services.jpg';
 import rules from '../assets/rules.jpg';
-import gal1 from '../assets/gal1.png';
-import gal2 from '../assets/gal2.jpg';
-import gal3 from '../assets/gal3.jpg';
-import gal4 from '../assets/gal4.jpg';
 
 import katana3 from '../assets/katana3.png';
 import background1 from '../assets/background1.avif';
@@ -31,6 +27,9 @@ import scissors1 from '../assets/Scissors1.png';
 import scissors2 from '../assets/Scissors2.png';
 import scissors from '../assets/Scissors.png';
 
+import shavers from '../assets/shavers.jpg';
+import outdoor from '../assets/outdoor.jpg';
+
 export default {
   bg,
   quote,
@@ -44,10 +43,6 @@ export default {
   katana2,
   services,
   rules,
-  gal1,
-  gal2,
-  gal3,
-  gal4,
 
   katana3,
   background1,
@@ -64,4 +59,7 @@ export default {
   scissors1,
   scissors2,
   scissors,
+
+  shavers,
+  outdoor,
 };

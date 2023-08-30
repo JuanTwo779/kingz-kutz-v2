@@ -22,7 +22,7 @@ const SServices = () => (
       </div>
 
       <div className="app__sservices-service_img">
-        <img src={images.services} alt="service__img" />
+        <img src={images.shavers} alt="service__img" />
       </div>
 
       <div className="app__sservices-service_caveats  flex__center">

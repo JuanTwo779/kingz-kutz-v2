@@ -12,6 +12,7 @@
 .app__booking-button {
     flex-direction: row;
     margin-top: 3rem;
+    /* margin-right: 3rem; */
 }
 
 .app__booking-button svg {

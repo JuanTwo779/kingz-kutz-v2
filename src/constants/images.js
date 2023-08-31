@@ -1,17 +1,11 @@
 import bg from '../assets/bg.png';
-import quote from '../assets/quote.png';
 
 import barber from '../assets/barber.jpg';
 import logoKK from '../assets/logo-kk.png';
 import logoWhiteKK from '../assets/logoWhite-kk.png';
 import heroLogoKK from '../assets/herologo.png';
 import header from '../assets/header.png';
-import katana from '../assets/katana.png';
-import katana2 from '../assets/katana2.png';
-import services from '../assets/services.jpg';
-import rules from '../assets/rules.jpg';
 
-import katana3 from '../assets/katana3.png';
 import background1 from '../assets/background1.avif';
 import background2 from '../assets/Background2.avif';
 import gallery1 from '../assets/ph1.png'; 
@@ -32,19 +26,13 @@ import outdoor from '../assets/outdoor.jpg';
 
 export default {
   bg,
-  quote,
 
   barber,
   logoKK,
   logoWhiteKK,
   heroLogoKK,
   header,
-  katana,
-  katana2,
-  services,
-  rules,
 
-  katana3,
   background1,
   background2,
   gallery1,

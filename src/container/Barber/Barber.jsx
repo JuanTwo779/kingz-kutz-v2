@@ -10,15 +10,19 @@ const Barber = () => (
       <img src={images.barber} alt="barber_image" />
     </div>
     <div className="app__wrapper_info">
-      <SubHeading title="Barber's word" />
-      <h1 className="headtext__cormorant">About Us</h1>
+      <SubHeading title="The Barber" />
+      <h1 className="headtext__cormorant">About Me</h1>
 
       <div className="app__barber-content">
         <div className="app__barber-content_quote">
-          {/* <img src={images.quote} alt="quote_image" /> */}
-          <p className="p__opensans"> I study engineering in RMIT and I am super passionate about it. I've been cutting hair since highschool I think.</p>
+          <p className="p__opensans"> 
+          Indulge in the privilege of being served by a barber like no other - a living embodiment of engineering excellence and style mastery. As a future civil engineering magnate gracing the grooming industry, I bless my clients with the honor of experiencing my unrivaled talents. My commitment to civil engineering's complexities finds its match in the precision with which I sculpt hair, a true testament to my multifaceted genius. 
+          </p>
         </div>
-        {/* <p className="p__opensans"> Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue ac consequat, aliquam molestie lectus eu. Congue iaculis integer curabitur semper sit nunc. </p> */}
+        <br />
+        <p className="p__opensans"> While my peers merely dabble in superficialities, I engineer aesthetics with meticulous calculations and scientific precision. Just as structures bow to my architectural prowess, my clients find themselves humbled by the artistry I command. Witness the harmony between mathematical brilliance and grooming finesse as I engineer jawlines to perfection. </p>
+        <br />
+        <p className="p__opensans"> Rest assured, you're not merely receiving a haircut; you're gaining access to a realm of engineering-driven elegance curated exclusively for those who understand that sophistication demands both mathematical appreciation and impeccable style. </p>
       </div>
 
       <div className="app__barber-sign">

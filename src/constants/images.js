@@ -24,6 +24,7 @@ import scissors from '../assets/Scissors.png';
 import shavers from '../assets/shavers.jpg';
 import outdoor from '../assets/outdoor.jpg';
 import squareUp from '../assets/SquareUp.png';
+import scissorsSec from '../assets/ScissorsSec.png';
 
 export default {
   bg,
@@ -52,4 +53,5 @@ export default {
   shavers,
   outdoor,
   squareUp,
+  scissorsSec,
 };

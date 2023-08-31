@@ -12,7 +12,6 @@
 .app__booking-button {
     flex-direction: row;
     margin-top: 3rem;
-    /* margin-right: 3rem; */
 }
 
 .app__booking-button svg {
@@ -24,6 +23,20 @@
 .app__booking-button svg:hover {
     color: var(--color-accent);
     transition: ease-in 0.2s;
+}
+
+.app__booking-button img {
+    cursor: pointer;
+    width: 200px;
+}
+
+.app__booking-button a :hover {
+    transform: perspective(1000px) rotateY(45deg);
+    transition: 0.3s ease;
+}
+
+.app__booking-insta {
+    text-decoration: underline;
 }
 
 

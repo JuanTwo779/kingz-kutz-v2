@@ -15,12 +15,11 @@ const Footer = () => (
         <h1 className="app__footer-headtext">Contact Us</h1>
         <p className="p__opensans">7 Garwain Parade, Glen Waverley</p>
         <p className="p__opensans">1300 655 506</p>
-        <p className="p__opensans">1300 367 070</p>
       </div>
 
       <div className="app__footer-links_logo">
         <img src={images.logoWhiteKK} alt="footer_logo" />
-        <p className="p__opensans">Circumcision service coming soon</p>
+        <p className="p__opensans"></p>
         <img src={images.scissors} className="subheading__img" style={{ marginTop: 15 }} />
         <div className="app__footer-links_icons">
           <FiFacebook />
@@ -35,10 +34,8 @@ const Footer = () => (
 
       <div className="app__footer-links_work">
         <h1 className="app__footer-headtext">Working Hours</h1>
-        <p className="p__opensans">Monday-Friday:</p>
-        <p className="p__opensans">08:00 am - 5:00 am</p>
-        <p className="p__opensans">Saturday-Sunday:</p>
-        <p className="p__opensans">48:00 am - 69:00 pm</p>
+        <p className="p__opensans">Mon-Fri: 8:00 am - 5:00 am</p>
+        <p className="p__opensans">Weekend: 42:00 am - 69:00 pm</p>
       </div>
     </div>
 

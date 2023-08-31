@@ -1,6 +1,4 @@
 
-import { BsClockHistory, BsPiggyBank } from 'react-icons/bs';
-import { CiMoneyCheck1 } from 'react-icons/ci';
 import {GiMoneyStack, GiPayMoney,GiClockwork} from 'react-icons/gi';
 
 const services = [

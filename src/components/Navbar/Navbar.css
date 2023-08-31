@@ -31,11 +31,10 @@
 .app__navbar-links li {
     margin: 0 1rem;
     cursor: pointer;
-    font-weight: bold;
 }
 
 .app__navbar-links li:hover{
-    color: var(--color-secondary);
+    color: var(--color-accent);
     transition: ease-in 0.3s;
 }
 

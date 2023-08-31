@@ -1,7 +1,6 @@
 import images from './images';
 import data from './data';
 
-import cut from '../assets/cut.mp4';
 import vid from '../assets/intro.MOV';
 
-export { images, data, cut, vid };
+export { images, data, vid };

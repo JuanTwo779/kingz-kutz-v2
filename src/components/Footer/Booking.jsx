@@ -9,7 +9,7 @@ const Booking = () => (
     <div className="app__booking-heading">
       <SubHeading title="booking" />
       <h1 className="headtext__cormorant">Book on Instragram</h1>
-      <p className="p__opensans">Click the instagram button below and click the 'book now' button in the bio. Then follow the instructions on the screen</p>
+      <p className="p__opensans">Click the instagram button below and click the 'book now' button in the bio or, click the Square Up button to go straight to the booking.</p>
     </div>
 
     <div className="app__booking-button flex__center">

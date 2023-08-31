@@ -53,8 +53,12 @@
   justify-content: center;
   align-items: center;
 
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
 }
+
+/* .app__wrapper_img img{
+  border: 1px solid var(--color-golden);
+} */
 
 .app__wrapper_img-reverse {
   justify-content: flex-start;
@@ -114,6 +118,10 @@
   line-height: 83.2px;
   letter-spacing: 0.04em;
   text-transform: capitalize;
+}
+
+.image__border {
+  border: 5px solid #555;
 }
 
 .subheading__img {

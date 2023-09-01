@@ -16,11 +16,11 @@ const Barber = () => (
       <div className="app__barber-content">
         <div className="app__barber-content_quote">
           <p className="p__opensans"> 
-          Indulge in the privilege of being served by a barber like no other - a living embodiment of engineering excellence and style mastery. As a future civil engineering magnate gracing the grooming industry, I bless my clients with the honor of experiencing my unrivaled talents. My commitment to civil engineering's complexities finds its match in the precision with which I sculpt hair, a true testament to my multifaceted genius. 
+          Indulge in the privilege of being served by a barber like no other. As a future civil engineering magnate gracing the grooming industry, I bless my clients with the honor of experiencing my unrivaled talents. My commitment to civil engineering's complexities finds its match in the precision with which I sculpt hair, a true testament to my multifaceted genius. 
           </p>
         </div>
         <br />
-        <p className="p__opensans"> While my peers merely dabble in superficialities, I engineer aesthetics with meticulous calculations and scientific precision. Just as structures bow to my architectural prowess, my clients find themselves humbled by the artistry I command. Witness the harmony between mathematical brilliance and grooming finesse as I engineer jawlines to perfection. </p>
+        <p className="p__opensans"> While my peers merely dabble in superficialities, I engineer aesthetics with meticulous calculations and scientific precision. Witness the harmony between mathematical brilliance and grooming finesse as I engineer jawlines to perfection. </p>
         <br />
         <p className="p__opensans"> Rest assured, you're not merely receiving a haircut; you're gaining access to a realm of engineering-driven elegance curated exclusively for those who understand that sophistication demands both mathematical appreciation and impeccable style. </p>
       </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
+import { FiFacebook, FiInstagram, FiLinkedin } from 'react-icons/fi';
 
 import { FooterOverlay, Booking } from '../../components';
 import { images } from '../../constants';
@@ -20,15 +20,24 @@ const Footer = () => (
       <div className="app__footer-links_logo">
         <img src={images.logoWhiteKK} alt="footer_logo" />
         <p className="p__opensans"></p>
-        <img src={images.scissors} className="subheading__img" style={{ marginTop: 15 }} />
+        <img src={images.scissors} className="subheading__img" style={{ marginTop: 15 }} alt='scissors' />
         <div className="app__footer-links_icons">
-          <FiFacebook />
+          <FiFacebook 
+            onClick={(e) => { e.preventDefault();
+            window.open('https://m.facebook.com/p/Kingz-Kutz-100070774514816/','_blank').focus();
+            }}
+          />
           <FiInstagram 
             onClick={(e) => { e.preventDefault();
             window.open('https://www.instagram.com/blurryvision.kk/','_blank').focus();
-          }} 
-        />
-          <FiTwitter />
+            }} 
+          />
+          <FiLinkedin 
+            onClick={(e) => { e.preventDefault();
+              window.open('https://au.linkedin.com/in/kelvin-kuek-0100361b4','_blank').focus();
+              }} 
+          />
+          {/* <FiTwitter /> */}
         </div>
       </div>
 

@@ -10,7 +10,7 @@ const Barber = () => (
       <img src={images.barber} alt="barber_image" />
     </div>
     <div className="app__wrapper_info">
-      <SubHeading title="The Barber" />
+      <SubHeading title="@BlurryVision.kk" />
       <h1 className="headtext__cormorant">About Me</h1>
 
       <div className="app__barber-content">

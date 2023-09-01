@@ -8,6 +8,8 @@ import Barber from './Barber/Barber';
 import Services from './Services/SServices';
 import Rules from './Rules/Rules';
 
+import Hero from './Hero/Hero';
+
 export {
   FindUs,
   Footer,
@@ -17,4 +19,6 @@ export {
   Barber,
   Services,
   Rules,
+
+  Hero,
 };

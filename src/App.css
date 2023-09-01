@@ -8,11 +8,20 @@
   align-items: center;
 }
 
+.app__hero {
+  background: linear-gradient(rgb(0,0,0,0.5), 
+              var(--color-black)),
+              url('./assets/setup4.jpg') 
+              no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .app__bg {
   /* background: linear-gradient(
     rgba(0, 0, 0, 0.60), 
     rgba(0, 0, 0, 0.60)), 
-    url('./assets/background1.avif');
+    url('./');
   background: url('./assets/background1.avif'); */
   background-color: var(--color-black);
   background-position: center;
@@ -95,7 +104,6 @@
   color: var(--color-white);
   font-weight: 700;
   letter-spacing: 0.04em;
-  text-transform: capitalize;
   font-feature-settings: 'tnum' on, 'lnum' on;
   line-height: 29.9px;
   font-size: 23px;
@@ -106,7 +114,6 @@
   color: var(--color-white);
   font-weight: 400;
   letter-spacing: 0.04em;
-  /* text-transform: capitalize; */
   line-height: 28px;
   font-size: 16px;
 }

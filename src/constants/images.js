@@ -26,6 +26,8 @@ import outdoor from '../assets/outdoor.jpg';
 import squareUp from '../assets/SquareUp.png';
 import scissorsSec from '../assets/ScissorsSec.png';
 
+import heroLogoSec from '../assets/herologoSec.png';
+
 export default {
   bg,
 
@@ -54,4 +56,6 @@ export default {
   outdoor,
   squareUp,
   scissorsSec,
+
+  heroLogoSec,
 };

@@ -19,7 +19,7 @@ const Rules = () => (
     <div className='app__bg app__wrapper section__padding' id='rules'>
 
         <div className='app__wrapper_info'>
-            <SubHeading title="New rules"/>
+            <SubHeading title="2023 rules"/>
             <h1 className='headtext__cormorant'>Rules and regulations</h1>
 
             <div className='app__rules_list'>

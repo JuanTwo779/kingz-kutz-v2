@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 100%;
 
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .app__barber-content_quote {
@@ -20,27 +20,28 @@
 
 .app__barber-sign {
     width: 100%;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 .app__barber-sign p:first-child {
-    font-family: var(--font-base);
+    font-family: var(--font-cursive);
     font-weight: 400;
     font-size: 32px;
+    /* font-style: italic; */
     line-height: 41.6px;
     letter-spacing: 0.04em;
     text-transform: capitalize;
-    color: var(--color-accent);
+    color: var(--color-white);
 }
 
 .app__barber-sign img {
-    width: 250px;
+    width: 300px;
     margin-top: 3rem;
 }
 
 @media screen and (min-width: 2000px) {
     .app__barber-sign img {
-        width: 370px;
+        width: 400px;
     }
 }
 

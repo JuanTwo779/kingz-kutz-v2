@@ -20,8 +20,8 @@ const Barber = () => (
           </p>
         </div>
         <br />
-        <p className="p__opensans"> While my peers merely dabble in superficialities, I engineer aesthetics with meticulous calculations and scientific precision. Witness the harmony between mathematical brilliance and grooming finesse as I engineer jawlines to perfection. </p>
-        <br />
+        {/* <p className="p__opensans"> While my peers merely dabble in superficialities, I engineer aesthetics with meticulous calculations and scientific precision. Witness the harmony between mathematical brilliance and grooming finesse as I engineer jawlines to perfection. </p>
+        <br /> */}
         <p className="p__opensans"> Rest assured, you're not merely receiving a haircut; you're gaining access to a realm of engineering-driven elegance curated exclusively for those who understand that sophistication demands both mathematical appreciation and impeccable style. </p>
       </div>
 

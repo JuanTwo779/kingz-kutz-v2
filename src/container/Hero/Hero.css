@@ -38,8 +38,8 @@
      overflow: visible; /* For IE */
      padding: 0;
      border: none;
-     border-top: medium double white;
-     color: white;
+     border-top: medium double var(--color-white);
+     color: var(--color-golden);
      text-align: center;
      width: 50%;
  }

@@ -86,7 +86,7 @@
 }
 
 .gallery__arrow-icon {
-    color: var(--color-whitesmoke);
+    color: var(--color-golden);
     font-size: 2rem;
     cursor: pointer;
     background-color: var(--color-black);
@@ -94,8 +94,12 @@
 }
 
 .gallery__arrow-icon:hover {
-    color: var(--color-white);
-    background-color: var(--color-gray);
+    color: var(--color-black);
+    background-color: var(--color-golden);
+}
+
+.app__gallery-images img{
+    filter: brightness(80%);
 }
 
 @media screen and (min-width: 2000px){

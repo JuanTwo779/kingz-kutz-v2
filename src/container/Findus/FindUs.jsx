@@ -3,7 +3,7 @@ import React from 'react';
 import { SubHeading } from '../../components';
 
 const FindUs = () => (
-  <div className='app__bg app__wrapper section__padding' id='contact'>
+  <div className='app__bg_4 app__wrapper section__padding' id='contact'>
     
     <div className="app__wrapper_info">
       <SubHeading title='Contact' />

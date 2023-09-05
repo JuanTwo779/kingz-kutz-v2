@@ -15,7 +15,7 @@ const ServiceItem = ({ title, price, tags }) => (
     </div>
 
     <div className="app__menuitem-sub">
-      <p className="p__opensans" style={{ color: 'var(--color-accent)' }}>{tags}</p>
+      <p className="p__opensans-small" style={{ color: 'var(--color-accent)' }}>{tags}</p>
     </div>
   </div>
 );

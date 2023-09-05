@@ -42,12 +42,12 @@
       var(--_l2), var(--_l2) calc(var(--s)/2) var(--s),
       conic-gradient(var(--_c),var(--c1) 0) calc(var(--s)/8) 0,
       conic-gradient(var(--_c),var(--c3) 0) calc(var(--s)/2) 0,
-      linear-gradient(90deg,var(--c3) 38%,var(--c1) 0 50%,var(--c3) 0 62%,var(--c1) 0);
+      /* linear-gradient(var(--color-black), #0F0F0F, #000000) */
+      linear-gradient(#0F0F0F,#0C0C0C,#0A0A0A,#080808,#060606,#040404,#020202)
+      /* linear-gradient(#0F0F0F,#0F0D0D,#0F0C0C,#0F0B0B,#0F0A0A,#0F0909,#0F0707) */
+      /* linear-gradient(90deg,var(--c3) 38%,var(--c1) 0 50%,var(--c3) 0 62%,var(--c1) 0) */
+      ;
     background-size: var(--s) calc(2*var(--s)/3);
-}
-
-.app__bg_5 {
-  background: linear-gradient(var(--color-black), #0F0F0F)
 }
 
 .app__wrapper {
@@ -126,6 +126,15 @@
   font-size: 16px;
 }
 
+.p__opensans-small {
+  font-family: var(--font-alt);
+  color: var(--color-accent);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 14px;
+}
+
 .headtext__cormorant {
   font-family: var(--font-base);
   color: var(--color-whitesmoke);
@@ -201,11 +210,19 @@
   .p__opensans {
     font-size: 14px;
   }
+
+  .p__opensans-small {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 450px) {
   .p__opensans {
     font-size: 12px;
+  }
+
+  .p__opensans-small {
+    font-size: 10px;
   }
 
   .p__cormorant {

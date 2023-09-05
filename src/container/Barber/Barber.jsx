@@ -5,7 +5,7 @@ import { images } from '../../constants';
 import './Barber.css';
 
 const Barber = () => (
-  <div className="app__bg app__wrapper section__padding" id='barber'>
+  <div className="app__bg_4 app__wrapper section__padding" id='barber'>
     <div className="app__wrapper_img app__wrapper_img-reverse">
       <img src={images.barber} alt="barber_image" />
     </div>

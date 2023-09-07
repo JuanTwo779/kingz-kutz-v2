@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/kingz-kutz-v2/static/css/main.ecffa047.css",
+    "main.js": "/kingz-kutz-v2/static/js/main.8aee631b.js",
+    "static/media/intro.MOV": "/kingz-kutz-v2/static/media/intro.534aeb2cef8c5d22afe3.MOV",
+    "static/media/header.png": "/kingz-kutz-v2/static/media/header.29904ba220ee0cb8dae8.png",
+    "static/media/bg.png": "/kingz-kutz-v2/static/media/bg.3d421b1b5682e1b67deb.png",
+    "static/media/herologo.png": "/kingz-kutz-v2/static/media/herologo.7f74312f7a07426de3ec.png",
+    "static/media/herologoSec.png": "/kingz-kutz-v2/static/media/herologoSec.360cbf93258cfcd756cb.png",
+    "static/media/shavers.jpg": "/kingz-kutz-v2/static/media/shavers.2e9c7790638a8f027c24.jpg",
+    "static/media/setup6.jpg": "/kingz-kutz-v2/static/media/setup6.49d3368a8a190cba8b11.jpg",
+    "static/media/outdoor.jpg": "/kingz-kutz-v2/static/media/outdoor.55d805e8220513ff5386.jpg",
+    "static/media/ph5.jpg": "/kingz-kutz-v2/static/media/ph5.6ca264676c9b20a666f6.jpg",
+    "static/media/ph6.jpg": "/kingz-kutz-v2/static/media/ph6.3e5c0d87d7fdd3d4fc65.jpg",
+    "static/media/ph2.jpg": "/kingz-kutz-v2/static/media/ph2.aa86a5a5711183a1a583.jpg",
+    "static/media/ph1.png": "/kingz-kutz-v2/static/media/ph1.b0f52cc332d64d089433.png",
+    "static/media/ph7.jpg": "/kingz-kutz-v2/static/media/ph7.2c32c8919790590a9589.jpg",
+    "static/media/ph3.jpg": "/kingz-kutz-v2/static/media/ph3.10a270f93a40c5271336.jpg",
+    "static/media/barber.jpg": "/kingz-kutz-v2/static/media/barber.7dd3910eb78d3c6f4148.jpg",
+    "static/media/ph4.jpg": "/kingz-kutz-v2/static/media/ph4.608ac2fe94ade5293da6.jpg",
+    "static/media/logo-kk.png": "/kingz-kutz-v2/static/media/logo-kk.b95a793c495a80270a9c.png",
+    "static/media/ph8.jpg": "/kingz-kutz-v2/static/media/ph8.9441e3918dd373151657.jpg",
+    "static/media/ph9.jpg": "/kingz-kutz-v2/static/media/ph9.2fdd2a4811e4621b1a35.jpg",
+    "static/media/logoWhite-kk.png": "/kingz-kutz-v2/static/media/logoWhite-kk.118a0ca16b117a822cc9.png",
+    "static/media/SquareUp.png": "/kingz-kutz-v2/static/media/SquareUp.1dcdde14b6da51a3c21d.png",
+    "static/media/background1.avif": "/kingz-kutz-v2/static/media/background1.2cadae9952c1e4d6d2a6.avif",
+    "static/media/Background2.avif": "/kingz-kutz-v2/static/media/Background2.2a6beff355bcbcd269c2.avif",
+    "index.html": "/kingz-kutz-v2/index.html",
+    "main.ecffa047.css.map": "/kingz-kutz-v2/static/css/main.ecffa047.css.map",
+    "main.8aee631b.js.map": "/kingz-kutz-v2/static/js/main.8aee631b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ecffa047.css",
+    "static/js/main.8aee631b.js"
+  ]
+}

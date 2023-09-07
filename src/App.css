@@ -149,7 +149,7 @@
 }
 
 .subheading__img {
-  width: 100px;
+  width: 70px;
 }
 
 @media screen and (min-width: 2000px) {
@@ -170,7 +170,7 @@
   }
 
   .spoon__img {
-    width: 80px;
+    width: 60px;
   }
 }
 

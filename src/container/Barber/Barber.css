@@ -27,11 +27,10 @@
     font-family: var(--font-cursive);
     font-weight: 400;
     font-size: 32px;
-    /* font-style: italic; */
     line-height: 41.6px;
     letter-spacing: 0.04em;
     text-transform: capitalize;
-    color: var(--color-golden);
+    color: var(--color-accent);
 }
 
 .app__barber-sign img {

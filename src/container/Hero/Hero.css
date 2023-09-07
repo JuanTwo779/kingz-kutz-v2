@@ -29,30 +29,23 @@
      margin: 10px;
 }
 
-/* .app__hero-hr{
-     color: var(--color-white);
-     width: 50%;
-} */
-
 .style-eight {
      overflow: visible; /* For IE */
      padding: 0;
      border: none;
      border-top: medium double var(--color-white);
-     color: var(--color-golden);
+     color: var(--color-white);
      text-align: center;
      width: 50%;
  }
 
  .style-eight:after {
-      /* content: "§"; */
       content: "ℤ";
       display: inline-block;
      position: relative;
      top: -0.7em;
      font-size: 1.5em;
      padding: 0 0.7em;
-     /* background: white; */
  }
 
 .app__hero-desc{

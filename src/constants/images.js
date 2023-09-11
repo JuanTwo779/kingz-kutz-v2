@@ -4,7 +4,6 @@ import barber from '../assets/barber.jpg';
 import logoKK from '../assets/logo-kk.png';
 import logoWhiteKK from '../assets/logoWhite-kk.png';
 import heroLogoKK from '../assets/herologo.png';
-import header from '../assets/header.png';
 
 import background1 from '../assets/background1.avif';
 import background2 from '../assets/Background2.avif';
@@ -26,8 +25,6 @@ import outdoor from '../assets/outdoor.jpg';
 import squareUp from '../assets/SquareUp.png';
 import scissorsSec from '../assets/ScissorsSec.png';
 
-import heroLogoSec from '../assets/herologoSec.png';
-
 export default {
   bg,
 
@@ -35,7 +32,6 @@ export default {
   logoKK,
   logoWhiteKK,
   heroLogoKK,
-  header,
 
   background1,
   background2,
@@ -57,5 +53,4 @@ export default {
   squareUp,
   scissorsSec,
 
-  heroLogoSec,
 };

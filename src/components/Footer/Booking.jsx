@@ -11,9 +11,9 @@ const Booking = () => (
       <h1 className="headtext__cormorant">Book now on Square Up</h1>
       <p className="p__opensans">
         Click the button below and follow the steps to book. 
-        Alternatively, go to 
-        our <a href="https://www.instagram.com/blurryvision.kk/" target="__blank" rel='noreferrer' className='app__booking-insta'>instagram</a> and 
-        find the instructions to book in our bio.
+        Alternatively, watch 
+        our <a href="https://www.instagram.com/blurryvision.kk/" target="__blank" rel='noreferrer' className='app__booking-insta'>instagram video</a> for 
+        a more detailed guide to make a booking.
       </p>
     </div>
 

@@ -9,9 +9,10 @@
 }
 
 .app__hero {
-  background: linear-gradient(rgb(0,0,0,0.4), var(--color-black)),
-              url('./assets/setup6.jpg') 
+  background: linear-gradient(rgb(0,0,0,0.1), var(--color-black)),
+              url('./assets/hero9.jpg') 
               no-repeat;
+  /* background: url('./assets/hero9.jpg') no-repeat; */
   background-size: cover;
   background-position: center;
 }
@@ -96,7 +97,7 @@
     line-height: 28px;
     font-size: 16px;
     padding: 0.5rem 1.5rem;
-    /* border-radius: 30px; */
+    border-radius: 30px;
     border: none;
     outline: none;
     cursor: pointer;

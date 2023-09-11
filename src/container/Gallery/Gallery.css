@@ -86,7 +86,7 @@
 }
 
 .gallery__arrow-icon {
-    color: var(--color-golden);
+    color: var(--color-white);
     font-size: 2rem;
     cursor: pointer;
     background-color: var(--color-black);
@@ -95,7 +95,7 @@
 
 .gallery__arrow-icon:hover {
     color: var(--color-black);
-    background-color: var(--color-golden);
+    background-color: var(--color-white);
 }
 
 .app__gallery-images img{

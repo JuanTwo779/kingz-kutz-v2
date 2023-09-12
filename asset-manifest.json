@@ -1,14 +1,12 @@
 {
   "files": {
-    "main.css": "/kingz-kutz-v2/static/css/main.ecffa047.css",
-    "main.js": "/kingz-kutz-v2/static/js/main.8aee631b.js",
+    "main.css": "/kingz-kutz-v2/static/css/main.eccdd631.css",
+    "main.js": "/kingz-kutz-v2/static/js/main.8a30f200.js",
     "static/media/intro.MOV": "/kingz-kutz-v2/static/media/intro.534aeb2cef8c5d22afe3.MOV",
-    "static/media/header.png": "/kingz-kutz-v2/static/media/header.29904ba220ee0cb8dae8.png",
     "static/media/bg.png": "/kingz-kutz-v2/static/media/bg.3d421b1b5682e1b67deb.png",
     "static/media/herologo.png": "/kingz-kutz-v2/static/media/herologo.7f74312f7a07426de3ec.png",
-    "static/media/herologoSec.png": "/kingz-kutz-v2/static/media/herologoSec.360cbf93258cfcd756cb.png",
     "static/media/shavers.jpg": "/kingz-kutz-v2/static/media/shavers.2e9c7790638a8f027c24.jpg",
-    "static/media/setup6.jpg": "/kingz-kutz-v2/static/media/setup6.49d3368a8a190cba8b11.jpg",
+    "static/media/hero9.jpg": "/kingz-kutz-v2/static/media/hero9.acdcb8838d147df6367c.jpg",
     "static/media/outdoor.jpg": "/kingz-kutz-v2/static/media/outdoor.55d805e8220513ff5386.jpg",
     "static/media/ph5.jpg": "/kingz-kutz-v2/static/media/ph5.6ca264676c9b20a666f6.jpg",
     "static/media/ph6.jpg": "/kingz-kutz-v2/static/media/ph6.3e5c0d87d7fdd3d4fc65.jpg",
@@ -26,11 +24,11 @@
     "static/media/background1.avif": "/kingz-kutz-v2/static/media/background1.2cadae9952c1e4d6d2a6.avif",
     "static/media/Background2.avif": "/kingz-kutz-v2/static/media/Background2.2a6beff355bcbcd269c2.avif",
     "index.html": "/kingz-kutz-v2/index.html",
-    "main.ecffa047.css.map": "/kingz-kutz-v2/static/css/main.ecffa047.css.map",
-    "main.8aee631b.js.map": "/kingz-kutz-v2/static/js/main.8aee631b.js.map"
+    "main.eccdd631.css.map": "/kingz-kutz-v2/static/css/main.eccdd631.css.map",
+    "main.8a30f200.js.map": "/kingz-kutz-v2/static/js/main.8a30f200.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecffa047.css",
-    "static/js/main.8aee631b.js"
+    "static/css/main.eccdd631.css",
+    "static/js/main.8a30f200.js"
   ]
 }

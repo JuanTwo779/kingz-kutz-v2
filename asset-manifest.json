@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/kingz-kutz-v2/static/css/main.eccdd631.css",
-    "main.js": "/kingz-kutz-v2/static/js/main.8a30f200.js",
+    "main.css": "/kingz-kutz-v2/static/css/main.2f843357.css",
+    "main.js": "/kingz-kutz-v2/static/js/main.e53cf791.js",
     "static/media/intro.MOV": "/kingz-kutz-v2/static/media/intro.534aeb2cef8c5d22afe3.MOV",
-    "static/media/bg.png": "/kingz-kutz-v2/static/media/bg.3d421b1b5682e1b67deb.png",
-    "static/media/herologo.png": "/kingz-kutz-v2/static/media/herologo.7f74312f7a07426de3ec.png",
+    "static/media/herologo.png": "/kingz-kutz-v2/static/media/herologo.94bb5850901603d4ef1a.png",
+    "static/media/herologo3.png": "/kingz-kutz-v2/static/media/herologo3.fa28c6f035f458f61578.png",
+    "static/media/herologo2.png": "/kingz-kutz-v2/static/media/herologo2.db207b8db0e27c6a6c8d.png",
     "static/media/shavers.jpg": "/kingz-kutz-v2/static/media/shavers.2e9c7790638a8f027c24.jpg",
-    "static/media/hero9.jpg": "/kingz-kutz-v2/static/media/hero9.acdcb8838d147df6367c.jpg",
     "static/media/outdoor.jpg": "/kingz-kutz-v2/static/media/outdoor.55d805e8220513ff5386.jpg",
     "static/media/ph5.jpg": "/kingz-kutz-v2/static/media/ph5.6ca264676c9b20a666f6.jpg",
+    "static/media/hero3.jpg": "/kingz-kutz-v2/static/media/hero3.5b34feb3009e283dfbd3.jpg",
     "static/media/ph6.jpg": "/kingz-kutz-v2/static/media/ph6.3e5c0d87d7fdd3d4fc65.jpg",
     "static/media/ph2.jpg": "/kingz-kutz-v2/static/media/ph2.aa86a5a5711183a1a583.jpg",
     "static/media/ph1.png": "/kingz-kutz-v2/static/media/ph1.b0f52cc332d64d089433.png",
@@ -21,14 +22,12 @@
     "static/media/ph9.jpg": "/kingz-kutz-v2/static/media/ph9.2fdd2a4811e4621b1a35.jpg",
     "static/media/logoWhite-kk.png": "/kingz-kutz-v2/static/media/logoWhite-kk.118a0ca16b117a822cc9.png",
     "static/media/SquareUp.png": "/kingz-kutz-v2/static/media/SquareUp.1dcdde14b6da51a3c21d.png",
-    "static/media/background1.avif": "/kingz-kutz-v2/static/media/background1.2cadae9952c1e4d6d2a6.avif",
-    "static/media/Background2.avif": "/kingz-kutz-v2/static/media/Background2.2a6beff355bcbcd269c2.avif",
     "index.html": "/kingz-kutz-v2/index.html",
-    "main.eccdd631.css.map": "/kingz-kutz-v2/static/css/main.eccdd631.css.map",
-    "main.8a30f200.js.map": "/kingz-kutz-v2/static/js/main.8a30f200.js.map"
+    "main.2f843357.css.map": "/kingz-kutz-v2/static/css/main.2f843357.css.map",
+    "main.e53cf791.js.map": "/kingz-kutz-v2/static/js/main.e53cf791.js.map"
   },
   "entrypoints": [
-    "static/css/main.eccdd631.css",
-    "static/js/main.8a30f200.js"
+    "static/css/main.2f843357.css",
+    "static/js/main.e53cf791.js"
   ]
 }

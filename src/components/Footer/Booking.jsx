@@ -12,7 +12,7 @@ const Booking = () => (
       <p className="p__opensans">
         Click the button below and follow the steps to book. 
         Alternatively, watch 
-        our <a href="https://www.instagram.com/blurryvision.kk/" target="__blank" rel='noreferrer' className='app__booking-insta'>instagram video</a> for 
+        our <a href="https://www.instagram.com/p/CwNl54Zo0Xs/" target="__blank" rel='noreferrer' className='app__booking-insta'>instagram video</a> for 
         a more detailed guide to make a booking.
       </p>
     </div>

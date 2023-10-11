@@ -34,6 +34,12 @@
     cursor: pointer;
 }
 
+.app__navbar-links .app__logo-z{
+    /* height: 10px; */
+    width: 50px; 
+    filter: brightness(1.7);
+}
+
 .app__navbar-links li:hover{
     color: var(--color-accent);
     transition: ease-in 0.3s;
@@ -51,15 +57,15 @@
     transition: 0.5s ease;
 }
 
-.app__navbar-login a:hover {
+/* .app__navbar-login a:hover {
     border-bottom: 1px solid var(--color-secondary);
     transition: ease-in 0.3s;
-}
+} */
 
 .app__navbar-login svg {
     color: var(--color-white);
     line-height: 28px;
-    font-size: 18px;
+    font-size: 20px;
     margin: 0 1rem;
     cursor: pointer;
 }
@@ -115,6 +121,7 @@
     font-size: 2rem;
 }
 
+
 .app__navbar-smallscreen_links li:hover {
     color: var(--color-white);
 }
@@ -132,6 +139,11 @@
     .app__navbar-logo img {
         width: 180px;
         height: auto;
+    }
+
+    /* needs fixing */
+    .app__navbar-logo .app__logo-z {
+        width: 50px;   
     }
 }
 

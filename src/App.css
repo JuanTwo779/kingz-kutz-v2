@@ -9,8 +9,8 @@
 }
 
 .app__hero {
-  background: linear-gradient(rgb(0,0,0,0.1), var(--color-black)),
-              url('./assets/hero9.jpg') 
+  background: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.3), rgb(0,0,0,0.1), var(--color-black)),
+              url('./assets/hero3.jpg') 
               no-repeat;
   /* background: url('./assets/hero9.jpg') no-repeat; */
   background-size: cover;
@@ -37,19 +37,7 @@
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%239C92AC' fill-opacity='0.25' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"), linear-gradient(to right top, #343a40, #2b2c31, #211f22, #151314, #000000);
 }
 
-.app__bg_4 {
-    background: 
-      var(--_l1), var(--_l1) calc(var(--s)/2) var(--s),
-      var(--_l2), var(--_l2) calc(var(--s)/2) var(--s),
-      conic-gradient(var(--_c),var(--c1) 0) calc(var(--s)/8) 0,
-      conic-gradient(var(--_c),var(--c3) 0) calc(var(--s)/2) 0,
-      /* linear-gradient(var(--color-black), #0F0F0F, #000000) */
-      linear-gradient(#0F0F0F,#0C0C0C,#0A0A0A,#080808,#060606,#040404,#020202)
-      /* linear-gradient(#0F0F0F,#0F0D0D,#0F0C0C,#0F0B0B,#0F0A0A,#0F0909,#0F0707) */
-      /* linear-gradient(90deg,var(--c3) 38%,var(--c1) 0 50%,var(--c3) 0 62%,var(--c1) 0) */
-      ;
-    background-size: var(--s) calc(2*var(--s)/3);
-}
+
 
 .app__wrapper {
   display: flex;
@@ -89,23 +77,27 @@
 }
 
 .custom__button {
-  background-color: var(--color-tertiary);
-    color: var(--color-black);
+  background-color: var(--color-secondary);
+    color: var(--color-white);
     font-family: var(--font-base);
     font-weight: 700;
     letter-spacing: 0.04em;
     line-height: 28px;
     font-size: 16px;
     padding: 0.5rem 1.5rem;
-    border-radius: 30px;
+    border-radius: 20px;
     border: none;
     outline: none;
     cursor: pointer;
+    transition: all 500ms ease; 
 }
 
 .custom__button:hover {
-  color: var(--color-whitesmoke);
-  transition: ease-in 0.3s;
+  color: var(--color-secondary);
+  background:#fff;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .p__cormorant {

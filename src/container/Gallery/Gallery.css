@@ -86,7 +86,7 @@
 }
 
 .gallery__arrow-icon {
-    color: var(--color-white);
+    color: var(--color-accent);
     font-size: 2rem;
     cursor: pointer;
     background-color: var(--color-black);

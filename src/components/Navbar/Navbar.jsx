@@ -14,13 +14,15 @@ const Navbar = () => {
     <nav className='app__navbar'>
 
       <div className='app__navbar-logo'>
+        {/* <img className='app__logo-z' src={images.heroLogoKK} alt="Kingz Kutz Background" /> */}
         <img src={images.logoKK} alt="app logo" />
       </div>
 
       <ul className='app__navbar-links'>
-        <li className='p__opensans'><a href="#home">Home</a></li>
+        {/* <li className='p__opensans'><a href="#home">Home</a></li> */}
         <li className='p__opensans'><a href="#barber">About</a></li>
         <li className='p__opensans'><a href="#services">Services</a></li>
+        <img className='app__logo-z' src={images.heroLogoKK3} alt="Kingz Kutz Background" />
         <li className='p__opensans'><a href="#rules">Rules</a></li>
         <li className='p__opensans'><a href="#contact">Contact</a></li>
       </ul>
@@ -33,7 +35,7 @@ const Navbar = () => {
         />
         <div />
         
-        <a href="#booking" className='p__opensans'>Bookings</a> 
+        <a href="#booking" className='custom__button'>Book Now</a> 
       </div>
 
       <div className="app__navbar-smallscreen">

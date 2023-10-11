@@ -31,7 +31,7 @@ const Intro = () => {
 
       <div className="app__video-overlay flex__center">
         <div 
-          className='app__video-overlay_circle flex__center'
+          className='app__video-overlay_radius flex__center'
           onClick={handleVideo}
         >
           {playVideo 

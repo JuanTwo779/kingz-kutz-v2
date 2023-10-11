@@ -1,12 +1,10 @@
-import bg from '../assets/bg.png';
-
 import barber from '../assets/barber.jpg';
 import logoKK from '../assets/logo-kk.png';
 import logoWhiteKK from '../assets/logoWhite-kk.png';
 import heroLogoKK from '../assets/herologo.png';
+import heroLogoKK2 from '../assets/herologo2.png';
+import heroLogoKK3 from '../assets/herologo3.png';
 
-import background1 from '../assets/background1.avif';
-import background2 from '../assets/Background2.avif';
 import gallery1 from '../assets/ph1.png'; 
 import gallery2 from '../assets/ph2.jpg'; 
 import gallery3 from '../assets/ph3.jpg'; 
@@ -26,15 +24,13 @@ import squareUp from '../assets/SquareUp.png';
 import scissorsSec from '../assets/ScissorsSec.png';
 
 export default {
-  bg,
-
   barber,
   logoKK,
   logoWhiteKK,
   heroLogoKK,
+  heroLogoKK2,
+  heroLogoKK3,
 
-  background1,
-  background2,
   gallery1,
   gallery2,
   gallery3,
@@ -52,5 +48,6 @@ export default {
   outdoor,
   squareUp,
   scissorsSec,
+
 
 };

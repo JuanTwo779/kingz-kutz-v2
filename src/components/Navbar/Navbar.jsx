@@ -14,12 +14,10 @@ const Navbar = () => {
     <nav className='app__navbar'>
 
       <div className='app__navbar-logo'>
-        {/* <img className='app__logo-z' src={images.heroLogoKK} alt="Kingz Kutz Background" /> */}
         <img src={images.logoKK} alt="app logo" />
       </div>
 
       <ul className='app__navbar-links'>
-        {/* <li className='p__opensans'><a href="#home">Home</a></li> */}
         <li className='p__opensans'><a href="#barber">About</a></li>
         <li className='p__opensans'><a href="#services">Services</a></li>
         <img className='app__logo-z' src={images.heroLogoKK3} alt="Kingz Kutz Background" />
@@ -44,11 +42,10 @@ const Navbar = () => {
         {toggleMenu && (
         <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
           <BsScissors fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
-          <ul className='app__navbar-smallscreen_links'>
-            <li className='p__opensans'><a href="#home">Home</a></li>
-            <li className='p__opensans'><a href="#about">About</a></li>
-            <li className='p__opensans'><a href="#menu">Services</a></li>
-            <li className='p__opensans'><a href="#awards">Rules</a></li>
+          <ul className='app__navbar-smallscreen_links' onClick={() => setToggleMenu(false)}>
+            <li className='p__opensans'><a href="#barber">About</a></li>
+            <li className='p__opensans'><a href="#services">Services</a></li>
+            <li className='p__opensans'><a href="#rules">Rules</a></li>
             <li className='p__opensans'><a href="#contact">Contact</a></li>
           </ul>
         </div>

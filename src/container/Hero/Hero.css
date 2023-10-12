@@ -53,19 +53,19 @@
      width: 30%;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 650px) {
      .app__hero-h1{
-          font-size: 40px;
+          font-size: 60px;
           line-height: 60px;
      }
 
      .app__hero-desc{
-          width: 75%;
+          width: 90%;
      }
 
      .style-eight {
           margin-top: 1rem;
-          width: 75%;
+          width: 90%;
      }
  }
 

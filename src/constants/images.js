@@ -2,7 +2,6 @@ import barber from '../assets/barber.jpg';
 import logoKK from '../assets/logo-kk.png';
 import logoWhiteKK from '../assets/logoWhite-kk.png';
 import heroLogoKK from '../assets/herologo.png';
-import heroLogoKK2 from '../assets/herologo2.png';
 import heroLogoKK3 from '../assets/herologo3.png';
 
 import gallery1 from '../assets/ph1.png'; 
@@ -28,7 +27,6 @@ export default {
   logoKK,
   logoWhiteKK,
   heroLogoKK,
-  heroLogoKK2,
   heroLogoKK3,
 
   gallery1,

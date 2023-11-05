@@ -12,7 +12,6 @@
   background: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.3), rgb(0,0,0,0.1), var(--color-black)),
               url('./assets/hero3.jpg') 
               no-repeat;
-  /* background: url('./assets/hero9.jpg') no-repeat; */
   background-size: cover;
   background-position: center;
 }

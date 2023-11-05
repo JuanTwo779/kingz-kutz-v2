@@ -4,6 +4,8 @@ import logoWhiteKK from '../assets/logoWhite-kk.png';
 import heroLogoKK from '../assets/herologo.png';
 import heroLogoKK3 from '../assets/herologo3.png';
 
+import heroLogoKK4 from '../assets/herologo4.png'; 
+
 import gallery1 from '../assets/ph1.png'; 
 import gallery2 from '../assets/ph2.jpg'; 
 import gallery3 from '../assets/ph3.jpg'; 
@@ -28,6 +30,7 @@ export default {
   logoWhiteKK,
   heroLogoKK,
   heroLogoKK3,
+  heroLogoKK4,
 
   gallery1,
   gallery2,

@@ -22,15 +22,17 @@
  }
 
 .app__hero-img img{
-     max-width: 150px;
-     max-width: 150px;
+     display: none;
+     max-width: 175px;
+     max-width: 175px;
      height: auto;
      width: auto;
      margin: 10px;
+     filter: brightness(1.2);
 }
 
 .style-eight {
-     overflow: visible; /* For IE */
+     overflow: visible; 
      padding: 0;
      border: none;
      border-top: medium double var(--color-white);
@@ -67,5 +69,17 @@
           margin-top: 1rem;
           width: 90%;
      }
- }
+}
+
+@media screen and (max-width: 450px) {
+     .app__hero-h1, .style-eight{
+          display: none;
+     }
+
+     .app__hero-img img{
+          display: flex;
+     }
+
+
+}
 

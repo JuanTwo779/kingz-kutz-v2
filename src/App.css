@@ -9,7 +9,8 @@
 }
 
 .app__hero {
-  background: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.3), rgb(0,0,0,0.1), var(--color-black)),
+  background: 
+  linear-gradient( rgb(0,0,0,0), rgb(0,0,0,0.33), rgb(0,0,0,0.66), var(--color-black)),
               url('./assets/hero3.jpg') 
               no-repeat;
   background-size: cover;
@@ -141,7 +142,8 @@
 }
 
 .subheading__img {
-  width: 70px;
+  width: 55px;
+  margin-left: 0;
 }
 
 @media screen and (min-width: 2000px) {

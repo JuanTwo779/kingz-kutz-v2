@@ -36,7 +36,14 @@
 }
 
 .app__booking-insta {
-    text-decoration: underline;
+    text-decoration: none;
+    color: var(--color-accent);
+}
+
+.app__booking-insta:hover {
+    font-weight: bolder;
+    color: var(--color-tertiary);
+    /* font-size-adjust: 20px; */
 }
 
 

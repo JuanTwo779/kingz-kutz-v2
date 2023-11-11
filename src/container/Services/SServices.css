@@ -41,7 +41,7 @@
 
 .app__sservices-service_img img {
     width: 100%;
-    height: auto;
+    margin: auto;
 }
 
 .app__sservices_service_items {

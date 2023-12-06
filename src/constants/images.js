@@ -24,6 +24,8 @@ import outdoor from '../assets/outdoor.jpg';
 import squareUp from '../assets/SquareUp.png';
 import scissorsSec from '../assets/ScissorsSec.png';
 
+import header from '../assets/hero3.jpg';
+
 export default {
   barber,
   logoKK,
@@ -50,5 +52,6 @@ export default {
   squareUp,
   scissorsSec,
 
+  header,
 
 };

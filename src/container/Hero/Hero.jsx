@@ -4,7 +4,7 @@ import images from '../../constants/images';
 import './Hero.css';
 
 const Hero = () => (
-     <div className='app__hero section__padding' id='hero'>
+     <div className='app__hero ' id='hero'>
           <div className='app__hero-info'>
                <h1 className='app__hero-h1'>Kingz Kutz Barber</h1>
                <hr className='style-eight'/>

@@ -1,7 +1,8 @@
 import React from 'react';
 
-import { Barber, FindUs, Footer, Gallery, Header, Intro, Services, Rules, Hero} from './container';
+import { Barber, FindUs, Footer, Gallery, Intro, Services, Rules, Hero, Header} from './container';
 import { Navbar } from './components';
+// import { header } from './container/'
 
 import './App.css';
 
@@ -26,6 +27,8 @@ const App = () => (
     <FindUs />
     
     <Footer />
+
+    {/* <Navbar2 /> */}
   </div>
 );
 

@@ -21,13 +21,11 @@ const Navbar = () => {
         <li className='p__opensans'><a href="#barber">About</a></li>
         <li className='p__opensans'><a href="#services">Services</a></li>
         <li className='p__opensans'><a href="#rules">Rules</a></li>
-        <img className='app__logo-z' src={images.heroLogoKK3} alt="Kingz Kutz Background" />
         <li className='p__opensans'><a href="#contact">Contact</a></li>
         <li className='p__opensans'><a href="#photos" >Photos</a></li>
-        <li className='p__opensans'><a href="#booking">Book</a></li>
       </ul>
 
-      {/* <div className="app__navbar-login">
+      <div className="app__navbar-login">
         <FiInstagram 
           onClick={(e) => { e.preventDefault();
           window.open('https://www.instagram.com/blurryvision.kk/','_blank').focus();
@@ -35,8 +33,8 @@ const Navbar = () => {
         />
         <div />
         
-        <a href="#booking" className='custom__button'>Book Now</a> 
-      </div> */}
+        <a href="#booking" className='p__opensans'>Book Now</a> 
+      </div>
 
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu className='flex__center' color='var(--color-white)' fontSize={27} onClick={() => setToggleMenu(true)}/>
@@ -61,6 +59,3 @@ const Navbar = () => {
 }
 
 export default Navbar;
-
-
-// 3 56 54

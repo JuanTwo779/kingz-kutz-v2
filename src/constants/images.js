@@ -25,6 +25,7 @@ import squareUp from '../assets/SquareUp.png';
 import scissorsSec from '../assets/ScissorsSec.png';
 
 import header from '../assets/hero3.jpg';
+import setup from '../assets/setup.jpg'
 
 export default {
   barber,
@@ -53,5 +54,6 @@ export default {
   scissorsSec,
 
   header,
+  setup,
 
 };

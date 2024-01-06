@@ -16,7 +16,7 @@ const RuleCard = ( {rule: { icon, title, comment}} ) => (
   );
 
 const Rules = () => (
-    <div className='app__bg app__wrapper section__padding' id='rules'>
+    <div className='app__bg_2 app__wrapper section__padding' id='rules'>
 
         <div className='app__wrapper_info'>
             <SubHeading title="2023 rules"/>
@@ -28,7 +28,7 @@ const Rules = () => (
         </div>
 
         <div className='app__wrapper_img'>
-            <img src={images.outdoor} alt="rules" />
+            <img src={images.setup} alt="rules" />
         </div>
 
     </div>

@@ -21,8 +21,8 @@ const Navbar = () => {
         <li className='p__opensans'><a href="#barber">About</a></li>
         <li className='p__opensans'><a href="#services">Services</a></li>
         <li className='p__opensans'><a href="#rules">Rules</a></li>
+        <li className='p__opensans'><a href="#photos" >Gallery</a></li>
         <li className='p__opensans'><a href="#contact">Contact</a></li>
-        <li className='p__opensans'><a href="#photos" >Photos</a></li>
       </ul>
 
       <div className="app__navbar-login">
@@ -46,8 +46,8 @@ const Navbar = () => {
             <li className='p__opensans'><a href="#barber">About</a></li>
             <li className='p__opensans'><a href="#services">Services</a></li>
             <li className='p__opensans'><a href="#rules">Rules</a></li>
-            <li className='p__opensans'><a href="#contact">Contact</a></li>
             <li className='p__opensans'><a href="#photos">Photos</a></li>
+            <li className='p__opensans'><a href="#contact">Contact</a></li>
             <li className='p__opensans'><a href="#booking">Book</a></li>
           </ul>
         </div>

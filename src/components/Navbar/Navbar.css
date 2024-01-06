@@ -5,9 +5,13 @@
     justify-content: space-between;
     align-items: center;
     background: var(--color-black);
+    position: fixed;
+    opacity: 0.9;
 
     padding: 1rem 2rem;
 }
+
+
 
 .app__navbar-logo {
     display: flex;
@@ -21,11 +25,13 @@
 
 
 .app__navbar-links {
-    list-style: none;
+    margin-left: 4rem;
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    list-style: none;
 }
 
 .app__navbar-links li, img {
@@ -34,7 +40,7 @@
 }
 
 .app__navbar-links li:hover{
-    color: var(--color-accent);
+    color: var(--color-secondary);
     transition: ease-in 0.3s;
 }
 
@@ -48,6 +54,7 @@
     margin: 0 1rem;
     text-decoration: none;
     transition: 0.5s ease;
+    /* color: var(--color-accent); */
 }
 
 .app__navbar-login a:hover {
@@ -121,7 +128,7 @@
 
 
 
-@media screen and (min-width: 2000px) {
+/* @media screen and (min-width: 2000px) {
 
     .app__navbar-login svg {
         font-size: 30px;
@@ -131,7 +138,7 @@
     .app__logo-z {
         width: 200px;
     }
-}
+} */
 
 @media screen and (max-width: 2000px) {
     .app__navbar-logo img {

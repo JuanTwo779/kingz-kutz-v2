@@ -30,7 +30,7 @@
     line-height: 41.6px;
     letter-spacing: 0.04em;
     text-transform: capitalize;
-    color: var(--color-accent);
+    color: var(--color-white);
 }
 
 .app__barber-sign img {

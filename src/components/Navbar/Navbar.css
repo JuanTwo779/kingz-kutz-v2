@@ -115,10 +115,19 @@
 .app__navbar-smallscreen_links li {
     margin: 2rem;
     cursor: pointer;
-    color: var(--color-white);
+    color: var(--color-grey);
     text-align: center;
     font-family: var(--font-base);
     font-size: 2rem;
+}
+
+.white {
+    font-family: var(--font-alt);
+    color: var(--color-white);
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
 }
 
 

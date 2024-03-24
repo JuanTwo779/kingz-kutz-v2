@@ -28,7 +28,7 @@ const Rules = () => (
         </div>
 
         <div className='app__wrapper_img'>
-            <img src={images.setup} alt="rules" />
+            <img src={images.canvas} alt="rules" />
         </div>
 
     </div>

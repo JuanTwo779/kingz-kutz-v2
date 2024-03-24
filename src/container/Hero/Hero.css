@@ -24,13 +24,13 @@
  }
 
  .app__hero-h2 {
-     color: var(--color-tertiary);
+     color: var(--color-grey);
      font-weight: 100;
  }
 
 .app__hero-img img{
-     max-width: 100px;
-     max-width: 100px;
+     max-width: 175px;
+     /* max-height: 175px; */
      height: auto;
      width: auto;
      margin: 10px;
@@ -70,24 +70,39 @@
 
 @media screen and (max-width: 650px) {
      .app__hero-h1{
-          font-size: 60px;
-          line-height: 60px;
+          font-size: 20px;
+          line-height: 25px;
+          margin-bottom: 10px;
+     }
+
+     .app__hero-h2{
+          font-size: 15px;
+          line-height: 20px;
+          /* margin-bottom: 10px; */
      }
 
      .app__hero-desc{
-          width: 90%;
+          width: 80%;
      }
 
      .style-eight {
           /* margin-top: 1rem; */
           width: 90%;
      }
+
+     .app__hero-img img{
+          max-width: 300px;
+          max-width: 300px;
+     }
+
 }
 
 @media screen and (max-width: 450px) {
 
+
      .app__hero-img img{
           display: flex;
+          margin-top: 5rem;
      }
 
 

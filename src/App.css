@@ -19,12 +19,12 @@
 }
 
 .app__hero-2 {
-  background: url('./assets/equipment.jpg') no-repeat;
+  background: url('./assets/hero.png') no-repeat;
   background-size: cover;
   background-position: center;
   /* margin-top: 4rem; */
   padding-top: 4rem;
-  height: 80vh;
+  height: 70vh;
   width: 100%;
 }
 

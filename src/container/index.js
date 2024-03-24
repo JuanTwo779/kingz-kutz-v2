@@ -9,6 +9,7 @@ import Services from './Services/SServices';
 import Rules from './Rules/Rules';
 
 import Hero from './Hero/Hero';
+import Partners from './Partners/Partners';
 
 export {
   FindUs,
@@ -21,4 +22,5 @@ export {
   Rules,
 
   Hero,
+  Partners,
 };

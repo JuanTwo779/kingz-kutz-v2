@@ -19,12 +19,12 @@
 }
 
 .app__hero-2 {
-  background: url('./assets/hero.png') no-repeat;
+  background: url('./assets/hero2.png') no-repeat;
   background-size: cover;
   background-position: center;
   /* margin-top: 4rem; */
-  padding-top: 4rem;
-  height: 70vh;
+  padding-top: 3rem;
+  height: 75vh;
   width: 100%;
 }
 
@@ -142,7 +142,7 @@
 .headtext__cormorant {
   font-family: var(--font-base);
   color: var(--color-whitesmoke);
-  font-size: 64px;
+  font-size: 55px;
   line-height: 83.2px;
   letter-spacing: 0.04em;
   text-transform: capitalize;

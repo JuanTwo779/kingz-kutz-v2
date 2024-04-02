@@ -9,9 +9,10 @@ const Hero = () => (
                <div className='app__hero-img'>
                     <img  src={images.heroLogoKK} alt="hero logo" />
                </div>
-               <h1 className='app__hero-h1'>Serving Royalty One Cut at a Time</h1>
-               <h2 className='app__hero-h2'>Your kingdom for premier barber services</h2>
-
+               <hr className='app__hero-bar'/>
+               <h1 className='app__hero-h1'>Serving royalty</h1>
+               <h2 className='app__hero-h2'>One cut at a time</h2>
+               <hr className='app__hero-bar'/>
             
           </div>
      </div>

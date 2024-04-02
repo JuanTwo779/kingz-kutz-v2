@@ -2,13 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rouge+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&family=Rouge+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Roboto&family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 
 :root {
   --font-base: 'Cormorant Upright', serif;
-  --font-alt: 'Open Sans', sans-serif;
+  --font-alt: 'Open Sans', serif;
   --font-cursive: 'Rouge Script', sans-serif;
   --font-four: 'Dancing Script', sans-serif;
   --font-five: 'Great Vibes', sans-serif;
+  --font-six: 'Playfair Display', serif;
   
   --color-black: #171616;
   --color-crimson: #F5EFDB;

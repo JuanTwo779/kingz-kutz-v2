@@ -29,6 +29,9 @@ import header from '../assets/hero3.jpg';
 import setup from '../assets/setup.jpg';
 
 import canvas from '../assets/canvas.jpg';
+import RAA from '../assets/RAA.png';
+import NHB from '../assets/Neighbour.png';
+import service from '../assets/Scissor-service.png';
 
 export default {
   barber,
@@ -61,5 +64,8 @@ export default {
   setup,
 
   canvas,
+  RAA,
+  NHB,
+  service,
 
 };

@@ -5,7 +5,8 @@ import './Partners.css';
 
 const Partners = () => (
      <div className="flex__center app__partners" id="Partners">
-          Hello
+          <SubHeading title="Our partners" />
+          <h1 className="headtext__cormorant">Our Partners</h1>
      </div>
 );
 

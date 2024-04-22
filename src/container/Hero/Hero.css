@@ -14,11 +14,11 @@
 }
 
 .app__hero-h1 {
-     font-family: var(--font-base);
+     /* font-family: var(--font-base); */
      color: var(--color-whitesmoke);
      font-weight: bold;
      letter-spacing: 0.05em;
-     text-transform: uppercase;
+     /* text-transform: uppercase; */
      font-size: 4rem;
      margin-left: 20rem;
      margin-right: 20rem;
@@ -41,7 +41,7 @@
      height: auto;
      width: auto;
      /* margin: 10px; */
-     filter: brightness(1.4);
+     /* filter: brightness(1.4); */
      /* opacity: 0.9; */
 }
 

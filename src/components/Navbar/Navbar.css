@@ -6,8 +6,8 @@
     align-items: center;
     background: var(--color-black);
     position: fixed;
-    opacity: 0.9;
-
+    /* opacity: 0.9; */
+    height: 80px;
     padding: 1rem 2rem;
 }
 

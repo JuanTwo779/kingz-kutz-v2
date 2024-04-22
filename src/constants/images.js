@@ -32,6 +32,7 @@ import canvas from '../assets/canvas.jpg';
 import RAA from '../assets/RAA.png';
 import NHB from '../assets/Neighbour.png';
 import service from '../assets/Scissor-service.png';
+import service2 from '../assets/Services2.png';
 
 export default {
   barber,
@@ -67,5 +68,6 @@ export default {
   RAA,
   NHB,
   service,
+  service2,
 
 };

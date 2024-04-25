@@ -13,28 +13,23 @@ const Navbar = () => {
   return (
     <nav className='app__navbar'>
 
-      <div className='app__navbar-logo'>
-        <img src={images.logoKK} alt="app logo" />
-      </div>
-
-      <ul className='app__navbar-links'>
+      <ul className="app__navbar-links items-left">
         <li className='p__opensans'><a href="#barber">About</a></li>
         <li className='p__opensans'><a href="#services">Services</a></li>
         <li className='p__opensans'><a href="#rules">Rules</a></li>
-        <li className='p__opensans'><a href="#photos" >Gallery</a></li>
-        <li className='p__opensans'><a href="#contact">Contact</a></li>
       </ul>
 
-      <div className="app__navbar-login">
-        <FiInstagram 
-          onClick={(e) => { e.preventDefault();
-          window.open('https://www.instagram.com/blurryvision.kk/','_blank').focus();
-          }} 
-        />
-        <div />
-        
-        <a href="#booking" className='white'>Book</a> 
+      <div className='app__navbar-logo'>
+        <img className='nav__desktop-logo' src={images.heroLogoKK} alt="app logo" />
+        <img className='nav__mobile-logo' src={images.logoKK} alt="app logo" />
       </div>
+
+      <ul className='app__navbar-links items-right'>
+        <li className='p__opensans'><a href="#photos" >Gallery</a></li>
+        <li className='p__opensans'><a href="#contact">Contact</a></li>
+        <li className='p__opensans'><a href="#booking">Book</a></li>
+      
+      </ul>
 
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu className='flex__center' color='var(--color-white)' fontSize={27} onClick={() => setToggleMenu(true)}/>

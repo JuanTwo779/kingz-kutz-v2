@@ -13,10 +13,8 @@
 }
 
 .app__navbar-logo {
-    /* flex: 1; */
     text-align: center;
-    margin: 0 1rem;
-    /* margin: 0; */
+    margin: 0 0.5rem;
 }
 
 .nav__desktop-logo {
@@ -32,20 +30,20 @@
 
 .app__navbar-links {
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
     list-style: none;
-    /* margin-left: auto; */
-
-    /* margin: 0; */
-    /* padding: 0; */
+    margin: 0;
+    padding: 0;
+    justify-content: center; /* Center the links horizontally */
 }
 
-.app__navbar-links li, img {
+.app__navbar-links li {
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center; 
     margin: 0 1.5rem;
     cursor: pointer;
 }
-
 
 .app__navbar-links li:hover{
     color: var(--color-secondary);

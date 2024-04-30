@@ -12,6 +12,7 @@ const Navbar = () => {
 
   return (
     <nav className='app__navbar'>
+      <div className="rounded-background"></div>
 
       <ul className="app__navbar-links items-left">
         <li className='p__opensans'><a href="#barber">About</a></li>
@@ -19,8 +20,7 @@ const Navbar = () => {
         <li className='p__opensans'><a href="#rules">Rules</a></li>
       </ul>
 
-      <div className="circle-background">
-      </div>
+
 
       <div className='app__navbar-logo'>
           <img className='nav__desktop-logo' src={images.heroLogoKK} alt="app logo" />

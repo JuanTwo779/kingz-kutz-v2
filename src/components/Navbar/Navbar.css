@@ -6,8 +6,7 @@
     align-items: center;
     background: var(--color-black);
     position: fixed;
-    /* opacity: 0.9; */
-    height: 100px;
+    height: 80px;
     padding: 1rem 2rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 2);
 }
@@ -15,16 +14,33 @@
 .app__navbar-logo {
     text-align: center;
     margin: 0 0.5rem;
+    
 }
 
 .nav__desktop-logo {
     max-width: 80px;
     filter: brightness(1.3);
-    margin: 0;
+    margin-top: 25px;
 }
+
+.circle-background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px; 
+    height: 150px;
+    background: var(--color-black);
+    border-radius: 50%; 
+    z-index: -1;
+}
+
+
 
 .nav__mobile-logo {
     display: none;
+    margin-top: auto; 
+    margin-bottom: auto; 
 }
 
 
@@ -33,7 +49,7 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    justify-content: center; /* Center the links horizontally */
+    justify-content: center; 
 }
 
 .app__navbar-links li {
@@ -126,12 +142,13 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .nav__desktop-logo{
+    .nav__desktop-logo, .circle-background{
         display: none;
     }
 
     .nav__mobile-logo{
         display: flex;
+        margin: auto;
     }
 
     .app__navbar-links {

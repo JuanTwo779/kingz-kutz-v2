@@ -87,23 +87,23 @@
 }
 
 .custom__button {
-  background-color: var(--color-secondary);
-    color: var(--color-white);
-    font-family: var(--font-base);
-    font-weight: 700;
-    letter-spacing: 0.04em;
-    line-height: 28px;
-    font-size: 16px;
-    padding: 0.5rem 1.5rem;
-    border-radius: 20px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    transition: all 500ms ease; 
+  background-color: none;
+  color: var(--color-white);
+  font-family: var(--font-base);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 16px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  border: 1px solid var(--color-white);
+  outline: none;
+  cursor: pointer;
+  transition: all 500ms ease; 
 }
 
 .custom__button:hover {
-  color: var(--color-secondary);
+  color: var(--color-accent);
   background:#fff;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);

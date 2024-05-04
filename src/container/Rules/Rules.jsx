@@ -5,6 +5,9 @@ import { data, images } from "../../constants";
 
 import './Rules.css';
 
+const currentYear = new Date().getFullYear().toString();
+const ruleYear = currentYear + ' rules';
+
 const RuleCard = ( {rule: { icon, title, comment}} ) => (
     <div className='app__rules_list-card'>
       <div className='icon'>{icon}</div>
@@ -19,7 +22,7 @@ const Rules = () => (
     <div className='app__bg_2 app__wrapper section__padding' id='rules'>
 
         <div className='app__wrapper_info'>
-            <SubHeading title="2023 rules"/>
+            <SubHeading title={ruleYear}/>
             <h1 className='headtext__cormorant'>Rules and regulations</h1>
 
             <div className='app__rules_list'>
@@ -28,7 +31,7 @@ const Rules = () => (
         </div>
 
         <div className='app__wrapper_img'>
-            <img src={images.canvas} alt="rules" />
+            <img src={images.outdoor} alt="rules" />
         </div>
 
     </div>

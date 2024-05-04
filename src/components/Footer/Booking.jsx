@@ -5,7 +5,7 @@ import './Booking.css';
 import images from '../../constants/images';
 
 const Booking = () => (
-  <div className="app__booking" id='booking'>
+  <div className="app__booking">
     <div className="app__booking-heading">
       <SubHeading title="Booking" />
       <h1 className="headtext__cormorant">Book now on Square Up</h1>

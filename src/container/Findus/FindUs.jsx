@@ -11,9 +11,9 @@ const FindUs = () => (
       <div className='app__wrapper-content'>
         <p className='p__opensans'> 
         Our location can be found at 7 Garwain Parade, Glen Waverley. Feel free to utilise Google Maps for assistance in locating us accurately.</p>
-        <p className='p__cormorant' style={{color: 'var(--color-white)', margin: '2rem 0 0.5rem 0'}}>Working Hours</p>
-        <p className='p__opensans' style={{color: 'var(--color-grey)'}}>Mon-Fri: 9:00am - 6:00pm</p>
-        <p className='p__opensans' style={{color: 'var(--color-grey)'}}>Weekends: 10:00am - 5:00pm</p>
+        <p className='p__cormorant' style={{color: 'var(--color-white)', margin: '2rem 0 1.5rem 0'}}>Working Hours</p>
+        <p className='p__opensans'>Mon-Fri: 9:00am - 6:00pm</p>
+        <p className='p__opensans'>Weekends: 10:00am - 5:00pm</p>
       </div>
     </div>
 

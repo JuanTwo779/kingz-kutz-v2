@@ -1,6 +1,4 @@
 import React from 'react';
-import { LuCrown } from "react-icons/lu";
-import { GiCrown } from "react-icons/gi";
 import { GiQueenCrown } from "react-icons/gi";
 
 import './Hero.css';

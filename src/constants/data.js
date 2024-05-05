@@ -1,5 +1,6 @@
 
-import {GiMoneyStack, GiPayMoney,GiClockwork} from 'react-icons/gi';
+import {GiMoneyStack, GiPayMoney} from 'react-icons/gi';
+import { IoMdClock } from "react-icons/io";
 
 const services = [
   {
@@ -66,7 +67,7 @@ const rules = [
   {
     title: 'After Hours',
     comment: 'Appointments made on a public holiday or late night (After 7pm) incurs a 1.5x fee.',
-    icon: <GiClockwork/>,
+    icon: <IoMdClock/>,
   },
 ];
 

@@ -7,7 +7,7 @@ import './Barber.css';
 const Barber = () => (
   <div className="app__bg_2 app__wrapper section__padding" id='barber'>
     <div className="app__wrapper_img app__wrapper_img-reverse">
-      <img src={images.barber} alt="barber_image" />
+      <img src={images.barber3} alt="barber_image" />
     </div>
     <div className="app__wrapper_info">
       <SubHeading title="@BlurryVision.kk" />

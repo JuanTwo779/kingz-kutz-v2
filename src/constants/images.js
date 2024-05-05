@@ -34,8 +34,16 @@ import NHB from '../assets/Neighbour.png';
 import service from '../assets/Scissor-service.png';
 import service2 from '../assets/Services2.png';
 
+import barber2 from '../assets/barber2.jpg'
+import barber3 from '../assets/barber3.jpg'
+
+import outdoor2 from '../assets/outdoor2.jpg'
+
 export default {
   barber,
+  barber2,
+  barber3,
+
   logoKK,
   logoWhiteKK,
   heroLogoKK,
@@ -52,12 +60,14 @@ export default {
   gallery7,
   gallery8,
   gallery9,
+
   scissors1,
   scissors2,
   scissors,
 
   shavers,
   outdoor,
+  outdoor2,
   squareUp,
   scissorsSec,
 

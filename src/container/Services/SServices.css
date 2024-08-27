@@ -35,7 +35,7 @@
 }
 
 .app__sservices-service_img {
-    width: 250px;
+    width: 18em;
     margin: 0 2rem;
 }
 
@@ -50,17 +50,17 @@
 
     margin: 2rem 0;
     width: 100%;
-    max-width: 400px;
+    max-width: 600px;
 }
 
 @media screen and (min-width: 2000px) {
-    .app__sservices-service_img {
+    /* .app__sservices-service_img {
         width: 650px;
-    }
+    } */
 
-    .app__sservices-service_img img {
-        height: 920px;
-    }
+    /* .app__sservices-service_img img {
+        width: 100%;
+    } */
 }
 
 @media screen and (max-width: 1150px) {

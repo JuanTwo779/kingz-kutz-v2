@@ -1,6 +1,8 @@
 .app__booking {
     padding: 2rem 4rem;
-    border: 1px solid var(--color-white);
+    /* border: 1px solid var(--color-white); */
+    box-shadow: 0 0px 4px var(--color-primary); 
+    /* border-radius: 10px; */
     background: var(--color-black);
     width: 80%;
 }
@@ -36,12 +38,12 @@
 }
 
 .app__booking-insta {
-    text-decoration: none;
+    text-decoration: underline;
     color: var(--color-accent);
 }
 
 .app__booking-insta:hover {
-    font-weight: bolder;
+    /* font-weight: bolder; */
     color: var(--color-tertiary);
 }
 

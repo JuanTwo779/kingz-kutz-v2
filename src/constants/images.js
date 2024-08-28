@@ -39,6 +39,10 @@ import barber3 from '../assets/barber3.jpg'
 
 import outdoor2 from '../assets/outdoor2.jpg'
 
+import HeroImage2 from '../assets/HeroImage2.jpg'
+import Kelvin2 from '../assets/Kelvin2.jpg'
+import Kelvin3 from '../assets/Kelvin3.jpg'
+
 export default {
   barber,
   barber2,
@@ -80,4 +84,7 @@ export default {
   service,
   service2,
 
+  HeroImage2,
+  Kelvin2,
+  Kelvin3,
 };

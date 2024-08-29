@@ -10,9 +10,9 @@ const Booking = () => (
       <SubHeading title="Booking" />
       <h1 className="headtext__cormorant">Book now on Square Up</h1>
       <p className="p__opensans">
-        Click the button below and follow the steps to book. 
+        Click the Square Up icon below and follow the steps to book. 
         Alternatively, watch 
-        our <a href="https://www.instagram.com/p/CwNl54Zo0Xs/" target="__blank" rel='noreferrer' className='app__booking-insta'>instagram video</a> for 
+        our instagram <a href="https://www.instagram.com/p/CwNl54Zo0Xs/" target="__blank" rel='noreferrer' className='app__booking-insta'>video</a> for 
         a more detailed guide to make a booking.
       </p>
     </div>

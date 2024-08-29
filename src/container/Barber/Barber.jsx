@@ -2,12 +2,25 @@ import React from 'react';
 
 import { SubHeading } from '../../components';
 import { images } from '../../constants';
+import { Carousel } from 'react-bootstrap';
 import './Barber.css';
 
 const Barber = () => (
   <div className="app__bg_2 app__wrapper section__padding" id='barber'>
     <div className="app__wrapper_img app__wrapper_img-reverse">
-      <img src={images.barber} alt="barber_image" />
+      {/* <img src={images.barber} alt='Barber' /> */}
+      {/* carousel */}
+      <Carousel>
+        <Carousel.Item>
+          <img src={images.barber} alt='First slide' className='d-block w-100' />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src={images.Kelvin2} alt='First slide' className='d-block w-100' />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src={images.Kelvin3} alt='First slide' className='d-block w-100' />
+        </Carousel.Item>
+      </Carousel>
     </div>
     <div className="app__wrapper_info">
       <SubHeading title="@BlurryVision.kk" />

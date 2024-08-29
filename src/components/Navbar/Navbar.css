@@ -99,15 +99,18 @@
 
 .app__navbar-smallscreen_links {
     list-style: none;
+    text-align: center;
 }
 
-.app__navbar-smallscreen_links li {
+.app__navbar-smallscreen_links a {
+    text-decoration: none;
     margin: 2rem;
     cursor: pointer;
     color: var(--color-grey);
-    text-align: center;
     font-family: var(--font-base);
     font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.04em;
 }
 
 .white {

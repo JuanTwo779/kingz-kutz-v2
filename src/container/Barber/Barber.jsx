@@ -7,10 +7,10 @@ import './Barber.css';
 
 const Barber = () => (
   <div className="app__bg_2 app__wrapper section__padding" id='barber'>
+    
     <div className="app__wrapper_img app__wrapper_img-reverse">
       {/* <img src={images.barber} alt='Barber' /> */}
-      {/* carousel */}
-      <Carousel>
+      <Carousel className='app__carousel'>
         <Carousel.Item>
           <img src={images.barber} alt='First slide' className='d-block w-100' />
         </Carousel.Item>
@@ -22,6 +22,7 @@ const Barber = () => (
         </Carousel.Item>
       </Carousel>
     </div>
+
     <div className="app__wrapper_info">
       <SubHeading title="@BlurryVision.kk" />
       <h1 className="headtext__cormorant">About Me</h1>

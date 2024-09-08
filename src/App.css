@@ -83,8 +83,17 @@
 }
 
 .app__wrapper_img img,
-.app__wrapper_img iframe {
+.app__wrapper_img iframe{
   width: 80%;
+}
+
+.app__carousel {
+  width: 90%;
+  margin: auto;
+}
+
+.app_carousel-img{
+  filter: brightness(80%);
 }
 
 .custom__button {

@@ -8,32 +8,42 @@ const services = [
     price: '$50',
     comment: 'A gradual transition from shorter hair at the back and sides of the head to longer hair on top'
   },
+  // {
+  //   title: 'Skin/Razor Fades',
+  //   price: '$55',
+  //   comment: 'A specific variation of the fade haircut that involves a more aggressive tapering of the hair',
+  // },
   {
-    title: 'Skin/Razor Fades',
-    price: '$55',
-    comment: 'A specific variation of the fade haircut that involves a more aggressive tapering of the hair',
+    title: 'Students',
+    price: '$45',
+    comment: 'University students receive a $5 discount',
   },
   {
-    title: 'Haircut + Beard',
-    price: '$70',
-    comment: 'A grooming technique to define the edges of a beard for a more polished and tidy appearance',
+    title: 'Under 18',
+    price: '$40',
+    comment: 'Students under 18 receive a $10 discount',
+  },
+  {
+    title: 'Beard',
+    price: '$20',
+    comment: 'Define the edges of a beard for a more polished and tidy appearance',
   },
   {
     title: 'Eyebrows',
     price: '$10',
-    comment: 'A grooming technique to refine the shape of eyebrows for a polished and well-defined look',
+    comment: 'Refine the shape of eyebrows for a polished and well-defined look',
   },
 ];
 
 const caveats = [
   {
-    title: 'Highschool Students',
-    price: '$45',
-    comment: 'Highschool students receive a discount for trims and fades',
+    title: 'After hours',
+    price: '﹢$10',
+    comment: 'Bookings made after 7pm incurs a $10 additional fee',
   },
   {
     title: 'Cash Discount',
-    price: '-$5',
+    price: '﹣$5',
     comment: 'Payments by cash receive a five dollar discount',
   },
   {

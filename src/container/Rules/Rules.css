@@ -1,37 +1,43 @@
 .app__rules_list {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 3rem;
 }
 
 .app__rules_list-card {
     flex: 1;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    min-width: 230px;
+    align-items: center;
+    /* min-width: 230px; */
+    width: 95%;
     margin: 1rem;
+    padding: 1.5rem 1.5rem 0.3rem 1.5rem;
+    border-radius: 12px;
+    background: var(--color-black); 
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);  */
+    transition: all 0.3s ease; 
 }
 
-.app__rules_list-card img {
-    width: 50px;
-    height: 50px;
+.app__rules_list-card:hover {
+    transform: translateY(-3px); 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 .icon svg {
-    color: var(--color-accent);
+    color: var(--color-tertiary);
     width: 50px;
     height: 50px;
+    margin-right: 1rem; 
 }
 
 .app__rules_list-card_content {
     display: flex;
     flex-direction: column;
-    margin-left: 1rem;
 }
+
 
 @media screen and (min-width: 1900px) {
     .app__rules_list-card {

@@ -66,17 +66,17 @@ const caveats = [
 const rules = [
   {
     title: 'Deposit',
-    comment: 'Cash bookings now require a $15 deposit. The deposit will be lost if the customer does not show up or cancels within 24 hours.',
+    comment: 'Cash bookings now require a $15 deposit.',
     icon: <GiPayMoney/>,
   },
   {
     title: 'Payments',
-    comment: 'Both cash and transfers are acceptable methods of payment. Cash payments receive a $5 discount.',
+    comment: 'Cash and transfers are acceptable methods of payment. Cash payments receive a $5 discount.',
     icon: <GiMoneyStack/>,
   },
   {
     title: 'After Hours',
-    comment: 'Appointments made on a public holiday or late night (After 7pm) incurs a 1.5x fee.',
+    comment: 'Bookings made after 7pm incurs a $10 additional fee',
     icon: <IoMdClock/>,
   },
 ];

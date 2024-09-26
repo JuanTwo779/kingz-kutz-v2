@@ -16,7 +16,7 @@
 .app__menuitem:hover p {
     color: var(--color-tertiary); 
     transform: scale(1.05); 
-    text-shadow: 0 0 5px var(--color-tertiary), 0 0 10px var(--color-tertiary); 
+    text-shadow: 0 0 1px var(--color-primary); 
 }
 
 .app__menuitem:hover p::after {

@@ -6,7 +6,7 @@ const services = [
   {
     title: 'Trims/Fades',
     price: '$50',
-    comment: 'A gradual transition from shorter hair at the back and sides of the head to longer hair on top'
+    comment: 'Transition from shorter hair at the back and sides to longer hair on top'
   },
   // {
   //   title: 'Skin/Razor Fades',

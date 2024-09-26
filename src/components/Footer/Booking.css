@@ -1,8 +1,8 @@
 .app__booking {
     padding: 2rem 4rem;
-    /* border: 1px solid var(--color-white); */
-    box-shadow: 0 0px 4px var(--color-primary); 
-    /* border-radius: 10px; */
+    border: 1px solid var(--color-grey);
+    /* box-shadow: 0 0px 4px var(--color-white);  */
+    border-radius: 10px;
     background: var(--color-black);
     width: 80%;
 }
@@ -16,35 +16,57 @@
     margin-top: 3rem;
 }
 
-.app__booking-button svg {
-    color: var(--color-white);
-    width: max-content;
-    cursor: pointer;
-}
-
-.app__booking-button svg:hover {
-    color: var(--color-accent);
-    transition: ease-in 0.2s;
-}
-
 .app__booking-button img {
     cursor: pointer;
-    width: 200px;
+    width: 150px;
+    transition: transform 0.3s ease-in-out;
 }
 
-.app__booking-button a :hover {
-    transform: perspective(1000px) rotateY(45deg);
-    transition: 0.3s ease;
+.app__booking-button img:hover {
+    animation: heartbeat 1.2s ease-in-out infinite;
+}
+
+@keyframes heartbeat {
+    0% { transform: scale(1); }
+    30% { transform: scale(1.2); }
+    40% { transform: scale(1); }
+    60% { transform: scale(1.2); }
+    70% { transform: scale(1); }
 }
 
 .app__booking-insta {
-    text-decoration: underline;
+    text-decoration: none;
     color: var(--color-accent);
+    position: relative;
+    display: inline-block;
+    transition: color 0.2s ease-in-out;
 }
 
 .app__booking-insta:hover {
-    /* font-weight: bolder; */
     color: var(--color-tertiary);
+    transition: color 0.5s ease;
+}
+
+.app__booking-insta::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: var(--color-accent);
+    bottom: -3px;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.4s ease-in-out;
+}
+
+.app__booking-insta:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.app__booking-insta:hover {
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
 }
 
 

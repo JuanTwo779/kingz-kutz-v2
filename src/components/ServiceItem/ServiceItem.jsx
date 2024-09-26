@@ -6,7 +6,7 @@ const ServiceItem = ({ title, price, tags }) => (
   <div className="app__menuitem">
     <div className="app__menuitem-head">
       <div className="app__menuitem-name">
-        <p className="p__cormorant" style={{ color: '#FFF' }}>{title}</p>
+        <p className="p__cormorant">{title}</p>
       </div>
       {/* <div className="app__menuitem-dash" /> */}
       <div className="app__menuitem-price">
@@ -15,7 +15,7 @@ const ServiceItem = ({ title, price, tags }) => (
     </div>
 
     <div className="app__menuitem-sub">
-      <p className="p__opensans" style={{color: 'var(--color-accent)'}}>{tags}</p>
+      <p className="p__opensans" >{tags}</p>
     </div>
   </div>
 );

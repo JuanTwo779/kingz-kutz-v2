@@ -4,6 +4,23 @@
 
     display: flex;
     flex-direction: column;
+    transition: color 0.3s ease; 
+}
+
+.app__menuitem p {
+    color: var(--color-white); 
+    transition: color 0.3s ease, transform 0.3s ease;
+    position: relative;
+}
+
+.app__menuitem:hover p {
+    color: var(--color-tertiary); 
+    transform: scale(1.05); 
+    text-shadow: 0 0 5px var(--color-tertiary), 0 0 10px var(--color-tertiary); 
+}
+
+.app__menuitem:hover p::after {
+    transform: scaleX(1); 
 }
 
 .app__menuitem-head {
@@ -21,12 +38,6 @@
     flex: 1;
 }
 
-.app__menuitem-dash {
-    width: 90px;
-    height: 1px;
-    background: var(--color-accent);
-    margin: 0 1rem;
-}
 
 .app__menuitem-price {
     display: flex;

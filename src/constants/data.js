@@ -76,7 +76,7 @@ const rules = [
   },
   {
     title: 'After Hours',
-    comment: 'Bookings made after 7pm incurs a $10 additional fee',
+    comment: 'Bookings made after 7pm incurs a $10 additional fee.',
     icon: <IoMdClock/>,
   },
 ];

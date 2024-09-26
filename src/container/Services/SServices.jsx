@@ -7,7 +7,6 @@ import './SServices.css';
 const SServices = () => (
   <div className="app__sservices flex__center section__padding" id="services">
     <div className="app__sservices-title">
-      <SubHeading title="What we provide" />
       <h1 className="headtext__cormorant">Services</h1>
     </div>
 

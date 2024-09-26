@@ -73,7 +73,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   /* margin-left: 2rem; */
 }
 
@@ -153,6 +152,11 @@
 .subheading__img {
   width: 55px;
   margin: auto;
+}
+
+.app__carousel,
+.box__shadow {
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (min-width: 2000px) {

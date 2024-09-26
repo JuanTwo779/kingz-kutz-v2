@@ -51,10 +51,6 @@
 }
 
 .app__navbar-links li {
-    color: white;
-    font-weight: 400;
-    font-size: 17px;
-    text-align: center; 
     margin: 0 1.5rem;
     cursor: pointer;
 }
@@ -62,6 +58,35 @@
 .app__navbar-links li:hover{
     color: var(--color-secondary);
     transition: ease-in 0.3s;
+}
+
+ul.app__navbar-links a {
+    color: var(--color-white);
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s ease;
+  }
+  
+ul.app__navbar-links a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: var(--color-tertiary);
+    bottom: -4px;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+}
+
+ul.app__navbar-links a:hover {
+    color: var(--color-tertiary);
+}
+
+ul.app__navbar-links a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 .items-left{
@@ -83,7 +108,10 @@
     width: 100%;
     height: 100vh;
     background: var(--color-black);
-    transition: .5s ease;
+    transition: 0.5s ease;
+    display: flex; /* Add flex display to center content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
     flex-direction: column;
     z-index: 5;
 }
@@ -100,32 +128,33 @@
 .app__navbar-smallscreen_links {
     list-style: none;
     text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Stack links vertically */
+    justify-content: center;
+    align-items: center; /* Ensure list items are centered */
+}
+
+.app__navbar-smallscreen_links li {
+    margin: 0.5rem 0;
 }
 
 .app__navbar-smallscreen_links a {
     text-decoration: none;
-    margin: 2rem;
-    cursor: pointer;
     color: var(--color-grey);
     font-family: var(--font-base);
     font-size: 2rem;
     font-weight: 400;
     letter-spacing: 0.04em;
+    transition: color 0.3s ease;
 }
 
-.white {
-    font-family: var(--font-alt);
-    color: var(--color-white);
-    font-weight: 400;
-    letter-spacing: 0.04em;
-    line-height: 28px;
-    font-size: 16px;
-}
-
-
-.app__navbar-smallscreen_links li:hover {
+.app__navbar-smallscreen_links li:hover a {
     color: var(--color-white);
 }
+
 
 
 @media screen and (max-width: 2000px) {

@@ -34,7 +34,7 @@ const Navbar = () => {
       </ul>
 
       <div className="app__navbar-smallscreen">
-        <GiHamburgerMenu className='flex__center' color='var(--color-white)' fontSize={27} onClick={() => setToggleMenu(true)}/>
+        <GiHamburgerMenu className='flex__center' color='var(--color-white)' fontSize={25} onClick={() => setToggleMenu(true)}/>
 
         {toggleMenu && (
         <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">

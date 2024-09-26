@@ -179,13 +179,9 @@
     font-size: 24px;
     line-height: 50px;
   }
-
-  /* .spoon__img {
-    width: 60px;
-  } */
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1074px) {
   .app__wrapper {
     flex-direction: column;
   }

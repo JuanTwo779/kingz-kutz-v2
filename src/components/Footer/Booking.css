@@ -1,12 +1,19 @@
 .app__booking {
     padding: 2rem 4rem;
-    border: 1px solid var(--color-grey);
-    /* box-shadow: 0 0px 4px var(--color-white);  */
     border-radius: 10px;
-    background: var(--color-black);
+    background: linear-gradient(135deg, var(--color-black) 50%, var(--color-primary) 50%);
+    background-size: 200% 200%;
+    background-position: 100% 0;
+    color: var(--color-white);
+    transition: background-position 0.4s ease-in-out;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.5);
     width: 80%;
+  }
+  
+.app__booking:hover {
+    background-position: 0 50%;
 }
-
+  
 .app__booking-heading {
     text-align: center;
 }

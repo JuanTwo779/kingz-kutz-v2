@@ -33,7 +33,7 @@ const Barber = () => (
             Indulge in the privilege of being served by a barber like no other. 
             As a future civil engineering magnate and skilled massage therapist 
             gracing the grooming industry, 
-            I bless my clients with the honor of experiencing my unrivaled talents. 
+            I bless my clients with the honour of experiencing my unrivaled talents. 
             My commitment to precision and attention to detail ensures that every 
             visit to my chair results in a fresh look that suits your style.
           </p>

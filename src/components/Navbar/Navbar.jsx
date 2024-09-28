@@ -22,8 +22,10 @@ const Navbar = () => {
 
 
       <div className='app__navbar-logo'>
+        <a href="#hero">
           <img className='nav__desktop-logo' src={images.heroLogoKK} alt="app logo" />
           <img className='nav__mobile-logo' src={images.logoKK} alt="app logo" />
+        </a>
         </div>
 
       <ul className='app__navbar-links items-right'>

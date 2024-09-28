@@ -12,13 +12,13 @@ const Barber = () => (
       {/* <img src={images.barber} alt='Barber' /> */}
       <Carousel className='app__carousel'>
         <Carousel.Item>
-          <img src={images.barber} alt='First slide' className='d-block w-100' />
-        </Carousel.Item>
-        <Carousel.Item>
           <img src={images.Kelvin2} alt='First slide' className='d-block w-100' />
         </Carousel.Item>
         <Carousel.Item>
-          <img src={images.Kelvin3} alt='First slide' className='d-block w-100' />
+          <img src={images.barber} alt='Second slide' className='d-block w-100' />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src={images.Kelvin3} alt='Third slide' className='d-block w-100' />
         </Carousel.Item>
       </Carousel>
     </div>

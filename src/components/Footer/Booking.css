@@ -86,11 +86,12 @@
 
 @media screen and (max-width: 650px) {
     .app__booking {
-        padding: 2rem 0;
+        padding: 2rem 2rem;
     }
 }
 
 @media screen and (max-width: 300px) {
+
     .app__booking-heading h1 {
         font-size: 32px;
         line-height: 50px;

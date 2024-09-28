@@ -159,6 +159,16 @@
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.5);
 }
 
+.app_carousel-img {
+  object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: var(--color-accent); 
+  border-radius: 50%; 
+}
+
 @media screen and (min-width: 2000px) {
   .p__cormorant {
     font-size: 37px;

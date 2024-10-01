@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { SubHeading, ServiceItem } from '../../components';
+import { ServiceItem } from '../../components';
 import { data, images } from '../../constants';
 import './SServices.css';
 

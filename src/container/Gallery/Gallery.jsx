@@ -14,7 +14,7 @@ const Gallery = () => {
         <SubHeading title="Instagram" />
         <h1 className="headtext__cormorant">Photo Gallery</h1>
         <p className="p__opensans" style={{ margin: '2rem 0 1rem 0' }}>Indulge your senses in a visual feast of impeccable styles. Browse our exquisite haircut gallery for a glimpse of possibilities. Let your imagination cook and discover your perfect royal look.</p>
-        <a href="https://www.instagram.com/blurryvision.kk/" target='_blank' type="button" className="custom__button" style={{ textDecoration: 'none' }}>View More</a>
+        <a href="https://www.instagram.com/blurryvision.kk/" target='_blank' rel="noreferrer" type="button" className="custom__button" style={{ textDecoration: 'none' }}>View More</a>
       </div>
       
       <div className="app__wrapper_img app__wrapper_img">

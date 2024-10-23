@@ -12,7 +12,7 @@ const Booking = () => (
       <p className="p__opensans">
         Click the Square Up icon below and follow the steps to book. 
         Alternatively, watch 
-        our instagram <a href="https://www.instagram.com/p/CwNl54Zo0Xs/" target="__blank" rel='noreferrer' className='app__booking-insta'>video</a> for 
+        our instagram <a href="https://www.instagram.com/p/CwNl54Zo0Xs/" target="__blank" rel='noreferrer' className='app__anchor-tag'>video</a> for 
         a more detailed guide to make a booking.
       </p>
     </div>

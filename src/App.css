@@ -163,11 +163,41 @@
   object-fit: cover;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: var(--color-accent); 
-  border-radius: 50%; 
+.app__anchor-tag {
+  text-decoration: none;
+  color: var(--color-tertiary);
+  position: relative;
+  display: inline-block;
+  transition: color 0.2s ease-in-out;
 }
+
+.app__anchor-tag:hover {
+  color: var(--color-tertiary);
+  transition: color 0.5s ease;
+}
+
+.app__anchor-tag::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: var(--color-accent);
+  bottom: -3px;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease-in-out;
+}
+
+.app__anchor-tag:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.app__anchor-tag:hover {
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
 
 @media screen and (min-width: 2000px) {
   .p__cormorant {

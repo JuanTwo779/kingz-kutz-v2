@@ -31,7 +31,7 @@ const Rules = () => (
         </div>
 
         <div className='app__wrapper_img'>
-            <img className="box__shadow" src={images.outdoor} alt="rules" />
+            <img className="box__shadow" src={images.outdoor} alt="Entrance to barber. Glen Waverley" />
         </div>
 
     </div>

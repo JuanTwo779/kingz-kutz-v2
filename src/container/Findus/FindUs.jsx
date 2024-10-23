@@ -7,7 +7,7 @@ const FindUs = () => (
     
   <div className="app__wrapper_info">
     <SubHeading title='Contact' />
-    <h1 className='headtext__cormorant' style={{ marginBottom: '2rem' }}>Find Us</h1>
+    <h1 className='headtext__cormorant' style={{ marginBottom: '1rem' }}>Find Us</h1>
   
     <div className='app__wrapper-content'>
       <p className='p__opensans'>

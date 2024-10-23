@@ -24,35 +24,27 @@ const Barber = () => (
     </div>
 
     <div className="app__wrapper_info">
-      <SubHeading title="@BlurryVision.kk" />
+      <SubHeading title="Glen Waverley Barber" />
       <h1 className="headtext__cormorant">About Me</h1>
 
       <div className="app__barber-content">
         <div className="app__barber-content_quote">
           <p className="p__opensans"> 
-            Indulge in the privilege of being served by a barber like no other. 
-            As a future civil engineering magnate and skilled massage therapist 
-            gracing the grooming industry, 
-            I bless my clients with the honour of experiencing my unrivaled talents. 
-            My commitment to precision and attention to detail ensures that every 
-            visit to my chair results in a fresh look that suits your style.
+            Welcome to an exceptional grooming experience. As a dedicated professional barber based in Glen Waverley, 
+            I take pride in delivering precision haircuts and personalised grooming services. 
+            Combining my background in civil engineering and expertise as a skilled massage therapist, 
+            I bring a unique touch to the grooming industry, ensuring each client leaves with a fresh look 
+            tailored to their style.
           </p>
         </div>
-        <br />
-        {/* <p className="p__opensans"> While my peers merely dabble in superficialities, I engineer aesthetics with meticulous calculations and scientific precision. Witness the harmony between mathematical brilliance and grooming finesse as I engineer jawlines to perfection. </p>
-        <br /> */}
+          
         <p className="p__opensans"> 
-          Rest assured, you're not merely receiving a haircut; 
-          you're gaining access to a realm of engineering-driven elegance 
-          curated exclusively for those who understand that sophistication 
-          demands both mathematical appreciation and impeccable style. 
+        Discover a space where men's grooming meets craftsmanship and style. <a href='#booking' className='app__anchor-tag'>Book</a> your appointment today and indulge in a top-tier grooming experience.
         </p>
       </div>
 
       <div className="app__barber-sign">
         <p>Kelvin Kuek</p>
-        {/* <p className="p__opensans">Civil Engineer | Barber</p> */}
-        {/* <img src={images.sign} alt="sign_image" /> */}
       </div>
     </div>
   </div>

@@ -37,7 +37,7 @@ const Navbar = () => {
       </ul>
 
       <div className="app__navbar-smallscreen">
-        <GiHamburgerMenu className='flex__center' color='var(--color-white)' fontSize={25} onClick={() => setToggleMenu(true)}/>
+        <GiHamburgerMenu className='burger__menu flex__center' onClick={() => setToggleMenu(true)}/>
 
         {toggleMenu && (
         <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
@@ -46,7 +46,9 @@ const Navbar = () => {
             <li><a href="#barber">About</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#rules">Rules</a></li>
-            <li><a href="#photos">Photos</a></li>
+            <li><a href="#intro">Video</a></li>
+            <li><a href="#assistant">Assist</a></li>
+            <li><a href="#photos">Gallery</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><a href="#booking">Book</a></li>
           </ul>

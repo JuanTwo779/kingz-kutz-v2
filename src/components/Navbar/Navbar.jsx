@@ -30,8 +30,8 @@ const Navbar = () => {
       </div>
 
       <ul className='app__navbar-links items-right'>
-        <li><a className='p__opensans' href="#assistant" >Assist</a></li>
         <li><a className='p__opensans' href="#photos" >Gallery</a></li>
+        <li><a className='p__opensans' href="#assistant" >Assist</a></li>
         <li><a className='p__opensans' href="#contact">Contact</a></li>
         <li><a className='p__opensans' href="#booking">Book</a></li>
       </ul>
@@ -47,8 +47,8 @@ const Navbar = () => {
             <li><a href="#services">Services</a></li>
             <li><a href="#rules">Rules</a></li>
             <li><a href="#intro">Video</a></li>
-            <li><a href="#assistant">Assist</a></li>
             <li><a href="#photos">Gallery</a></li>
+            <li><a href="#assistant">Assist</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><a href="#booking">Book</a></li>
           </ul>

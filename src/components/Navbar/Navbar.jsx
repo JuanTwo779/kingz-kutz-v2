@@ -17,6 +17,7 @@ const Navbar = () => {
         <li><a className='p__opensans' href="#barber">About</a></li>
         <li><a className='p__opensans' href="#services">Services</a></li>
         <li><a className='p__opensans' href="#rules">Rules</a></li>
+        <li><a className='p__opensans' href="#intro">Video</a></li>
       </ul>
 
 
@@ -26,13 +27,13 @@ const Navbar = () => {
           <img className='nav__desktop-logo' src={images.heroLogoKK} alt="app logo" />
           <img className='nav__mobile-logo' src={images.logoKK} alt="app logo" />
         </a>
-        </div>
+      </div>
 
       <ul className='app__navbar-links items-right'>
+        <li><a className='p__opensans' href="#assistant" >Assist</a></li>
         <li><a className='p__opensans' href="#photos" >Gallery</a></li>
         <li><a className='p__opensans' href="#contact">Contact</a></li>
         <li><a className='p__opensans' href="#booking">Book</a></li>
-      
       </ul>
 
       <div className="app__navbar-smallscreen">

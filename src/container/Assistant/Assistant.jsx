@@ -46,7 +46,7 @@ const Assistant = () => {
     }
 
     return (
-        <div className="app__sservices d-flex flex__center align-items-center text-center section__padding">
+        <div className="app__sservices d-flex flex__center align-items-center text-center section__padding" id='assistant'>
             <h1 className="headtext__cormorant mb-4">AI Assistant</h1>
             <p className='p__opensans'>Unsure how to describe your desired haircut? Simply upload a photo, and we’ll identify it for you.</p>
             <p className='p__opensans text-secondary'>Note: AI predictions are not always perfect. We recommend doing additional research to ensure the best results.</p>

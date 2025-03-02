@@ -11,6 +11,7 @@ import Rules from './Rules/Rules';
 import Hero from './Hero/Hero';
 import Partners from './Partners/Partners';
 import Assistant from './Assistant/Assistant';
+import Block from './Block/Block';
 
 export {
   FindUs,
@@ -25,4 +26,5 @@ export {
   Hero,
   Partners,
   Assistant,
+  Block,
 };

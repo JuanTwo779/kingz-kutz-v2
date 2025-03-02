@@ -1,8 +1,7 @@
 import React from 'react';
 
-import { Barber, FindUs, Footer, Gallery, Intro, Services, Rules, Hero, Header, Partners} from './container';
+import { Barber, FindUs, Footer, Gallery, Intro, Services, Rules, Hero, Header, Partners, Assistant, Block} from './container';
 import { Navbar } from './components';
-// import { header } from './container/'
 
 
 import './App.css';
@@ -10,8 +9,6 @@ import './App.css';
 const App = () => (
   <div>
     <Navbar />
-
-    {/* <Header /> */}
 
     <Hero />
 
@@ -27,11 +24,13 @@ const App = () => (
 
     <Gallery />
 
+    <Block />
+
+    <Assistant />
+
     <FindUs />
     
     <Footer />
-
-    {/* <Navbar2 /> */}
   </div>
 );
 

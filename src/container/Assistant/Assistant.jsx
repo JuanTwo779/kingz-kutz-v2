@@ -46,12 +46,16 @@ const Assistant = () => {
     }
 
     return (
-        <div>
-            <h1>Upload Image</h1>
-            <div>
-                <input type="file" onChange={onFileChange}/>
-                <button onClick={submit}>Upload</button>
-                {message && <p>{message}</p>}
+        <div className="app__sservices d-flex flex__center align-items-center text-center section__padding">
+            <h1 className="headtext__cormorant mb-4">AI Assistant</h1>
+            <p className='p__opensans'>Unsure how to describe your desired haircut? Simply upload a photo, and we’ll identify it for you.</p>
+            <p className='p__opensans text-secondary'>Note: AI predictions are not always perfect. We recommend doing additional research to ensure the best results.</p>
+            <div className='pt-5'>
+                <input type="file" className="form-control mb-5" onChange={onFileChange} />
+                <button className="custom__button" style={{ textDecoration: 'none' }} onClick={submit} >Submit</button>
+                <div>
+                    {message && <p className="p__opensans mt-4">{message}</p>}
+                </div>
             </div>
         </div>
     )

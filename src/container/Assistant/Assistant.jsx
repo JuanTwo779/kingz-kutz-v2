@@ -12,8 +12,10 @@ const Assistant = () => {
         setFile(event.target.files[0])
     }
 
+    const apiUrl = process.env.REACT_APP_ASSISTANT_API_URL
+
     const submit = async () =>{
-        // send file to backend using axios
+        //send file to backend using axios
         if (!file){
             setMessage("Please select a file first")
             return
@@ -23,7 +25,7 @@ const Assistant = () => {
         formData.append("file", file)
 
         try {
-            const response = await axios.post("http://127.0.0.1:5000/predict", formData, {
+            const response = await axios.post(apiUrl + "/predict", formData, {
                 headers: {
                     "Content-Type":"multipart/form-data",
                 },

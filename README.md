@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Kingz Kutz Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the frontend part of the web application for Glen Waverley barber Kingz Kutz. The frontend is hosted on AWS S3 and utilizes various AWS services for performance optimization, security, and DNS management.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+Kingz Kutz is a modern barber shop located in Glen Waverley. This web application provides customers with an easy way to browse services, book appointments, and stay updated with the latest news and promotions.
 
-### `npm start`
+## Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Assests
+- Images
+- Videos
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Components
+- Footer
+- Navbar
+- ServiceItem
+- Subheading
 
-### `npm test`
+### Constants
+- data.js: contains service information
+- images.js: imports images from assests directory
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Container
+- Assistant: AI helper
+- Barber: About section
+- Block
+- FindUs: Contact and location
+- Gallery: Showcase of images
+- Header
+- Intro: Video
+- Partners
+- Rules
+- Services: Showcase of what is provided
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Services Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Amazon S3
+Amazon S3 is used to host the `static website files` for the frontend. It provides durable and scalable storage for the HTML, CSS, JavaScript, and image files that make up the web application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Amazon CloudFront
+Amazon CloudFront is a Content Delivery Network (CDN) used to `distribute the static content` stored in S3 globally. CloudFront provides low latency and high transfer speeds, ensuring a smooth user experience. It also supports `HTTPS`, ensuring that data between the users and the website is encrypted and secure.
 
-### `npm run eject`
+### AWS Certificate Manager (ACM)
+AWS Certificate Manager (ACM) is used to manage `SSL/TLS certificates` for the web application. ACM provides the SSL certificate that CloudFront uses to `enable HTTPS`, securing the data transmitted between users and the website.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Amazon Route 53
+Amazon Route 53 is a scalable `Domain Name System (DNS)` web service used to `manage the domain names` for Kingz Kutz. It handles DNS routing and ensures that traffic is directed to the correct resources. Route 53 is also used to `configure subdomain redirection`, ensuring that traffic to subdomains is correctly redirected to the main domain.
